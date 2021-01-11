@@ -1,3 +1,26 @@
 body {
-    
+font-size: 18px;
+line-height: 1.5;
+background-color: #f2e9e4;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header,nav,main, footer{
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header, footer {
+    background-color: #9a8c98;
+    padding: 1rem;
+}
+img {
+    float: right;
+    margin: 1px;
+    border: 1px solid black;
+}
+h2 {
+    border-bottom-style: solid;
+}
+h1 {font-size:50px;
+
 }

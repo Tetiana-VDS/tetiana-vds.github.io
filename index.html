@@ -6,28 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=" Assignment portal for Tetiana Havryliuk in CIT 230: Web Frontend Development at Brigham Young
         University - Idaho">
-    <title>My Repository</title>
+    <title>Assignment portal for Tetiana Havryliuk</title>
     <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <img src="images/TH.jpg" alt="My Photo">
         <h1>Tetiana Havryliuk</h1>
     </header>
-    <h2>CIT 230: Assignment Portal</h2>
-    <nav>
-        <ul>
-            <il>Lesson 01:</il>
-            <il>Lesson 02:</il>
-            <il>Lesson 03:</il>
-        </ul>
-    </nav>
+    <main>
+        <h2>CIT 230: Assignment Portal</h2>
+        <nav>
+            <ul>
+                <li>Lesson 01: <a href="https://github.com/Tetiana-VDS/tetiana-vds.github.io">Assignment 01</a></li>
+                <li>Lesson 02: <a href="https://github.com/Tetiana-VDS/tetiana-vds.github.io">Assignment 02</a></li>
+                <li>Lesson 03: <a href="https://github.com/Tetiana-VDS/tetiana-vds.github.io">Link | Link</a>
+                </li>
+            </ul>
+        </nav>
+    </main>
 
-    <img src="images/IMAGE 2020-09-25 17:42:10 copy.jpg" alt="My Photo">
     <footer>
-        &copy; 2021 Tetiana Havryliuk | BYU-I | Online Learning
+        &copy; 2021 Tetiana Havryliuk | Bila Tserkva, Ukraine | BYU-I Online Learning
+        <div>Last modified on  <span id="modify"></span>
+        </div>
         <script>
-            var string = document.lastModified;
+            document.getElementById("modify").innerHTML = document.lastModified
         </script>
     </footer>
 </body>
