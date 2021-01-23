@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Plan</title>
-    <meta name="description" content="">
+    <meta name="description" content="Weather Site Planning, WDD 230, assignment week 3 by Tetiana Havryliuk">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -15,12 +15,22 @@
 
 <body>
     <header>
-           <img src="Images/rainbow.png" alt="Logo image" />
+        <img src="Images/rainbow.png" alt="Logo image" />
         <h1>Hot & Cold Local Weather Center</h1>
-        <h2>Tetiana Havryliuk </h2>
-        <h2>WDD 230</h2>
+        <h3>WE CARE!!!</h3>
+        <h2>Tetiana Havryliuk - WDD 230 </h2>
+        <h3>hotcold.center</h3>
+
     </header>
-    <nav></nav>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="target-audience.html">Target Audience</a></li>
+            <li> <a href="color-scheme.html">Color-Scheme</a></li>
+            <li><a href="typorgaphy.html">Typography</a></li>
+
+        </ul>
+    </nav>
     <main>
         <h3>
             Motto
@@ -38,24 +48,6 @@
             users experience meaningful and relevant.
         </p>
         <!-- change this -->
-
-        <h3>Audience</h3>
-        <p>
-            The target audience are local people and organizations whose productivity depends on the weather conditions
-            or weather-dependent services. People of any age and social status, of different job positions and with
-            different income. Useful authorized facts about events on the local or international level that may
-            influence
-            their daily activities or their business in long term perspective. Clients will be accessing the site and
-            its
-            content online on all classes of devices—large-wide screens (desktop/laptop), medium-screens (tablet), and
-            small-screens (smartphones /smart-watches).
-        </p>
-        <p>As the site will be designed for such a wide range of people, we will make sure a five-year-old will be able
-            to navigate and find whatever he or she is looking for. The information we will present will be precise and
-            concise. The interface will be consistent in colors, shapes and typography, people friendly in usage and
-            nice to look at. The forecast we provide will be as accurate as possible so that people will be able rely on
-            it and every day to come back. On the desktop will be a text holder where anyone can post a question, ask
-            for assistance or leave their comments and feedback.</p>
 
 
         <h2>
@@ -89,36 +81,53 @@
         <h3>
             Typography
         </h3>
-       
+
 
         <h4>
             Heading Font: "Noto Serif", serif;
-           
+
         </h4>
         <p>
             To my mind Noto Serif' Font will look visually nice, and will grab people attention as a Heading Font for
             the Weather Forecast Website as this. It is easy to read and it contrast very
             with the text font.
-          
+
         </p>
 
         <h4>
             Paragraph Font: "Trebuchet MS", Helvetica, sans-serif.
-    
+
         </h4>
         <p>
             For the main text Font I have chosen "Trebuchet MS", Helvetica as it is
             casual, readable and easy-comprehendible.
-        
+
         </p>
+
+
     </main>
     <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/">
+                <img class="social-link" src="Images/SocialMedia/facebook.png" alt="Facebook icon" />
+            </a>
+            <a href="https://www.twitter.com/">
+                <img class="social-link" src="Images/SocialMedia/twitter.png" alt="Twitter icon" />
+            </a>
+            <a href="https://www.instagram.com/">
+                <img class="social-link" src="Images/SocialMedia/instagram.png" alt="Instagram Icon" />
+            </a>
+            <a href="https://www.gmail.com/">
+                <img class="social-link" src="Images/SocialMedia/googleplus.png" alt="Instagram Icon" />
+            </a>
+        </div>
         &copy; <span id="copyrightYear"></span> Tetiana Havryliuk | Bila Tserkva, Ukraine | <a
             href="https://www.byui.edu/online"> BYU-I Online
             Learning</a>
-        <div id="date">Last modified on <span id="modify"></span>
+        <div>Current Date: <span id="now"></span>
         </div>
         <script src="js/main.js"></script>
+
     </footer>
 
 </body>
