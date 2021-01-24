@@ -1,0 +1,22 @@
+@media only screen and (min-width: 37.5em) {
+    nav ul {
+        display: flex;
+        grid-template-columns: repeat(5, 1fr);
+        }
+        nav a {
+            font-size: 3rem;
+        }
+body {
+    font-size: 18px;
+    line-height: 2rem;
+
+    paddind: 10px;
+}
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+}

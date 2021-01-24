@@ -1,0 +1,20 @@
+@media only screen and (min-width: 60em) {
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    main {
+        grid-template-columns: auto;
+    }
+
+    article:nth-child(3) {
+        grid-column: span 1;
+    }
+    header,
+    nav,
+    main,
+    footer {
+        margin: 1.25rem auto;
+        max-width: 1060px;
+    }
+}
