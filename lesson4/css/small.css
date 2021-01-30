@@ -1,1 +1,162 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
 
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.5rem;
+    background-color: #CDD5D1;
+    font-family: "Lato",
+        sans-serif;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-content: center;
+justify-content: center;
+    padding: 0;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 360px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+header,
+footer {
+    background-color: #615055;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: 0.90rem;
+}
+
+
+nav button {
+    margin: .2rem 2%;
+    background: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav {
+    background-color: #615055;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: #bbb;
+    color: #36454f;
+}
+
+.active {
+    color: #946E83;
+}
+nav ul.hide {
+    display: none;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 20%;
+    height: 4em;
+}
+
+.primary {
+    background-color: #CDD5D1;
+    color: black;
+}
+
+.secondary {
+    background-color: #615055;
+    color: white;
+}
+
+.accent1 {
+    background-color: #DDF8E8;
+    color: Black;
+}
+
+.accent2 {
+    background-color: #B4A6AB;
+    color: black;
+}
+
+.accent3 {
+    background-color: #946E83;
+    color: white;
+}
+
+p {
+    text-indent: 20px;
+    /* Отступ первой строки в пикселах */
+}
+
+footer a {
+    color: white;
+}
+h3 {
+    color: #c5c3c4
+}
+h2{
+    text-align: center;;
+}
+
+.title {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+.placeholder{
+    padding: 20px 100px;
+    margin: 10px;
+    border: 2px dotted #000;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
