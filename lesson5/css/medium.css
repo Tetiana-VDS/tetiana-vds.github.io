@@ -7,14 +7,19 @@ nav ul {
 nav a {
     font-size: 4rem;
 }
-
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 760px;
+    height: auto;
+}
 body {
     font-size: 17px;
     line-height: 1.5rem;
 
     padding: 10px;
 }
-
+  
 header,
 nav,
 main,
@@ -23,7 +28,7 @@ footer {
     max-width: 760px;
 }
 
-img {
+#logoimg {
     width: 128px;
     height: 128px;
 }

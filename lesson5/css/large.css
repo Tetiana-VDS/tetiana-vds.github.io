@@ -22,9 +22,15 @@
         margin: 1.25rem auto;
         max-width: 1060px;
     }
-    img{width:128px;
+    #logoimg{width:128px;
         height:128px;
    }
+  .herodiv {
+      margin: 10px auto;
+      position: relative;
+      width: 1060px;
+      height: auto;
+  }
     nav button {
         display: none;
     }

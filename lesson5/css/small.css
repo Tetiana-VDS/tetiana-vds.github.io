@@ -31,12 +31,18 @@ footer {
 #logoimg{
     width: 80px;
     height: 80px;
-    opacity: .8;
+   
 }
 .herodiv {
     margin: 10px auto;
     position: relative;
-    width: 800px;
+    width: 350px;
+    height: auto;
+}
+.map{
+     position: relative;
+     width: 100%;
+     height: auto;
 }
 header,
 footer {
@@ -164,4 +170,16 @@ h2{
     content: "";
     display: table;
     clear: both;
+}
+.social {
+    float: right;
+    align-self: center;
+    margin: 10px;
+}
+
+.social-link {
+    position: relative;
+    overflow: hidden;
+    shape-outside: circle();
+    border-radius: 50%;
 }
