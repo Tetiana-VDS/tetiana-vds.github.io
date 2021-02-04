@@ -1,0 +1,49 @@
+@media only screen and (min-width: 64rem) {
+    nav ul {
+        display: flex;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    nav a {
+        font-size: 4rem;
+    }
+
+    body {
+        font-size: 18px;
+        line-height: 2rem;
+
+        padding: 10px;
+    }
+
+    header,
+    nav,
+    main,
+    footer {
+        margin: 1.25rem auto;
+        max-width: 1060px;
+    }
+    img{width:128px;
+        height:128px;
+   }
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .6rem 1rem;
+    }
+}
