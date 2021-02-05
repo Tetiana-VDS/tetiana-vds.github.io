@@ -183,3 +183,14 @@ h2{
     shape-outside: circle();
     border-radius: 50%;
 }
+.contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    border: 2px solid #333;
+    margin: 10px;
+    padding: 10px;
+    background-color: #abc4c4;
+    text-align: center;
+
+}
