@@ -33,12 +33,7 @@ footer {
     height: 80px;
    
 }
-.herodiv {
-    margin: 10px auto;
-    position: relative;
-    width: 350px;
-    height: auto;
-}
+
 .map{
      position: relative;
      width: 100%;
@@ -161,20 +156,16 @@ h2{
     padding-top: 2rem;
     text-align: center;
 }
-.placeholder{
-    padding: 20px 100px;
-    margin: 10px;
-    border: 2px dotted #000;
-}
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
 .social {
-    float: right;
-    align-self: center;
+
     margin: 10px;
+    padding:  10px;
 }
 
 .social-link {
@@ -192,5 +183,26 @@ h2{
     padding: 10px;
     background-color: #abc4c4;
     text-align: center;
-
+}
+.values{
+    color: #AB9549;
+}
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 350px;
+    height: auto;
+}
+.measures{
+   	position: absolute;
+   	top: 360px;
+   	left: 130px;
+   	background: radial-gradient(#eee, #535657);
+   	border: 1px solid #000;
+   	padding: 1.5rem;
+   	box-shadow: 0 0 30px #111;
+   	opacity: .8;
+}
+.placeholder{
+    border: 2px solid #333;
 }
