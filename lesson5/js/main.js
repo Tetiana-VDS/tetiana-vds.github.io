@@ -8,3 +8,8 @@ function toggleMenu() {
  
     document.getElementById("primaryNav").classList.toggle("hide");
 }
+var now = new Date();
+var dayOfWeek = new Date().getDay();
+if (dayOfWeek == 4) {
+    document.getElementById("Saturday").innerHTML
+}

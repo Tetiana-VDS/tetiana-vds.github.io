@@ -55,7 +55,7 @@ nav ul li a {
 body {
     font-size: 17px;
     line-height: 1.5rem;
-
+width: 800px;
     padding: 10px;
 }
   
@@ -72,7 +72,7 @@ footer {
     height: 128px;
 }
 .sevenDays img {
-    width: 144px;
+    width: 103px;
 }
 .measures {
     position: absolute;
@@ -94,7 +94,7 @@ footer {
     height: auto;}
 
 .news {
-    
+    margin-top: 1.25rem;
     padding: 5px;
     background-color: #b1bab6;
     box-shadow: 0 0 30px grey;
@@ -112,5 +112,8 @@ display: flex;
     height: auto;
     padding: 5px;
 }
-
+.Saturday {
+    margin: 10px;
+    font-size: 1.3rem;
+}
 }

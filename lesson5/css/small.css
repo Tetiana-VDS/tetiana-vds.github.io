@@ -11,6 +11,7 @@ body {
     font-family: "Lato",
         sans-serif;
     height: 100%;
+    width: 500px;
 }
 
 header {
@@ -189,4 +190,11 @@ display: flex;
  display:none;
  width: 100%;
  height: auto;
+}
+.Saturday {
+    background-color: rgb(213, 213, 136);
+    padding: 1rem;
+    box-shadow: 0 0 30px grey;
+    text-transform: uppercase;
+    text-align: center;
 }
