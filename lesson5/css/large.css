@@ -1,8 +1,6 @@
 @media only screen and (min-width: 64em) {
     nav ul {
         display: flex;
-        grid-template-columns: repeat(5, 1fr);
-       
     }
 
     nav a {
@@ -27,10 +25,11 @@
    }
   .herodiv {
       position: relative;
+      float: left;
 
   }
   .herodiv img {
-      width: 1060px;
+      width: 64rem;
       height: auto;
   }
     nav button {
@@ -40,15 +39,22 @@
     nav ul.hide {
         display: block;
     }
-
-    
-
-    nav ul li {
-        float: left;
-    }
-
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .sevenDaysDiv {
+        display: inline-block;
+    }
+
+    .sevenDays {
+        padding: 0,1rem;
+        border: 1px solid #333;
+        background-color: #afbab5;
+    }
+
+    .sevenDays img {
+        padding: 1rem;
+        width: 141px;
     }
 }

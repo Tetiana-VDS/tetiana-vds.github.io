@@ -1,11 +1,32 @@
 @media only screen and (min-width: 37.5em) {
 nav ul {
     display: flex;
-    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
 }
-
 nav a {
     font-size: 4rem;
+}
+nav button {
+    display: none;
+}
+nav ul.hide {
+    display: flex;
+    flex: 1 1 100%;
+    width: 100%;
+
+}
+
+nav ul li {
+    float: left;
+
+
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: .6rem 1rem;
+
 }
 .herodiv {
     margin: 10px auto;
@@ -17,16 +38,19 @@ nav a {
     
     width: 760px;
     height: auto;
+
+} 
+.sevenDaysDiv {
+    display: block;
 }
 .sevenDays {
-    padding: 0,85rem;
-    border: 2px solid #333;
+    padding: 0,9rem;
+    border: 1px solid #333;
     background-color: #afbab5;
-
 }
 .sevenDays img {
-    padding: 1rem;
-    width: 38px;
+    padding: 0,1rem;
+    width: 25px;
 }
 body {
     font-size: 17px;
@@ -47,34 +71,12 @@ footer {
     width: 128px;
     height: 128px;
 }
-
-nav button {
-    display: none;
-}
-
-nav ul.hide {
-    display: block;
-}
-
-nav ul {
-    margin-left: 2%;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
-    padding: .6rem 1rem;
-}
 .sevenDays img {
     width: 144px;
 }
 .measures {
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: 30px;
 }
 .contacts{
