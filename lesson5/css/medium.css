@@ -13,6 +13,21 @@ nav a {
     width: 760px;
     height: auto;
 }
+.herodiv img {
+    
+    width: 760px;
+    height: auto;
+}
+.sevenDays {
+    padding: 0,85rem;
+    border: 2px solid #333;
+    background-color: #afbab5;
+
+}
+.sevenDays img {
+    padding: 1rem;
+    width: 38px;
+}
 body {
     font-size: 17px;
     line-height: 1.5rem;
@@ -53,6 +68,47 @@ nav ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
     padding: .6rem 1rem;
+}
+.sevenDays img {
+    width: 144px;
+}
+.measures {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.contacts{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+   
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.map {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;}
+
+.news {
+    
+    padding: 5px;
+    background-color: #b1bab6;
+    box-shadow: 0 0 30px grey;
+    
+}
+.newsText{
+display: flex;
+ padding: 5px;
+}
+.newsText p{
+    padding: 5px;
+}
+.news img {
+    width: 300px;
+    height: auto;
+    padding: 5px;
 }
 
 }

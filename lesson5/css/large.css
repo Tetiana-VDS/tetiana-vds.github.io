@@ -1,7 +1,8 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 64em) {
     nav ul {
         display: flex;
         grid-template-columns: repeat(5, 1fr);
+       
     }
 
     nav a {
@@ -11,7 +12,6 @@
     body {
         font-size: 18px;
         line-height: 2rem;
-
         padding: 10px;
     }
 
@@ -20,14 +20,16 @@
     main,
     footer {
         margin: 1.25rem auto;
-        max-width: 1060px;
+        min-width: 64rem;
     }
     #logoimg{width:128px;
         height:128px;
    }
   .herodiv {
-      margin: 10px auto;
       position: relative;
+
+  }
+  .herodiv img {
       width: 1060px;
       height: auto;
   }
@@ -39,9 +41,7 @@
         display: block;
     }
 
-    nav ul {
-        margin-left: 2%;
-    }
+    
 
     nav ul li {
         float: left;
@@ -50,6 +50,5 @@
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
-        padding: .6rem 1rem;
     }
 }

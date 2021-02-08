@@ -18,27 +18,14 @@ header {
     align-content: center;
 justify-content: center;
     padding: 0;
+    font-family: 'Hammersmith One',
+    sans-serif;
 }
-
-header,
-nav,
-main,
-footer {
-    margin: 1.25rem auto;
-    max-width: 360px;
-}
-
 #logoimg{
     width: 80px;
     height: 80px;
-   
 }
 
-.map{
-     position: relative;
-     width: 100%;
-     height: auto;
-}
 header,
 footer {
     background-color: #615055;
@@ -62,7 +49,7 @@ nav button {
     color: #fff;
 }
 nav {
-    background-color: #615055;
+    background-color: #9c8088;
     text-align: center;
 
 }
@@ -84,12 +71,13 @@ nav ul li a {
 }
 
 nav a:hover {
-    background-color: #bbb;
-    color: #36454f;
+    background-color: #c4a5ae;
+    color: white;
 }
 
 .active {
-    color: #946E83;
+      background-color: #c4a5ae;
+      color: white;
 }
 nav ul.hide {
     display: none;
@@ -101,41 +89,6 @@ nav ul.hide {
     margin: auto;
     text-align: center;
 }
-
-.colors th {
-    background-color: #999;
-}
-
-.colors td {
-    width: 20%;
-    height: 4em;
-}
-
-.primary {
-    background-color: #CDD5D1;
-    color: black;
-}
-
-.secondary {
-    background-color: #615055;
-    color: white;
-}
-
-.accent1 {
-    background-color: #DDF8E8;
-    color: Black;
-}
-
-.accent2 {
-    background-color: #B4A6AB;
-    color: black;
-}
-
-.accent3 {
-    background-color: #946E83;
-    color: white;
-}
-
 p {
     text-indent: 20px;
     /* Отступ первой строки в пикселах */
@@ -144,11 +97,13 @@ p {
 footer a {
     color: white;
 }
-h3 {
+header h3 {
     color: #c5c3c4
 }
-h2{
-    text-align: center;;
+
+h2, h3, h4{
+    text-align: center;
+padding-bottom: 10px;
 }
 
 .title {
@@ -163,46 +118,75 @@ h2{
     clear: both;
 }
 .social {
-
+display: flex;
     margin: 10px;
     padding:  10px;
+    justify-content: center;
 }
 
 .social-link {
-    position: relative;
+    
+     padding: 3px;
     overflow: hidden;
     shape-outside: circle();
     border-radius: 50%;
 }
 .contacts{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     border: 2px solid #333;
-    margin: 10px;
-    padding: 10px;
-    background-color: #abc4c4;
+    background-color: #a6b3ad;
     text-align: center;
+    box-sizing: 100%;
 }
 .values{
     color: #AB9549;
 }
 .herodiv {
-    margin: 10px auto;
     position: relative;
-    width: 350px;
+    grid-template-columns: 1fr;
+    padding: 5px;
+}
+.herodiv img{
+    
+    width: 500px;
     height: auto;
+    
 }
 .measures{
-   	position: absolute;
-   	top: 360px;
-   	left: 130px;
+    position: absolute;
+    top:15px;
+    left: 20px;
    	background: radial-gradient(#eee, #535657);
    	border: 1px solid #000;
-   	padding: 1.5rem;
-   	box-shadow: 0 0 30px #111;
-   	opacity: .8;
+   	padding: 1rem;
+   	box-shadow: 0 0 20px #111;
+       opacity: .93;
+       width: 200px;
+      
 }
-.placeholder{
-    border: 2px solid #333;
+.sevenDaysDiv{
+ display: none;
+}
+
+.news{
+    padding: 5px;
+    background-color: #b1bab6;
+    box-shadow: 0 0 30px grey;
+    box-sizing: 100%;
+}
+.news img{
+    width: 490px;
+    height:auto;
+   padding: 5px;
+}
+.auther{
+    color: #333;
+}
+
+.map {
+ display:none;
+ width: 100%;
+ height: auto;
 }
