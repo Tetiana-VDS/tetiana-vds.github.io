@@ -142,7 +142,7 @@ display: flex;
     
 }
 .values{
-    color: #AB9549;
+    color: rgb(91, 91, 172);
 }
 .herodiv {
     position: relative;
@@ -191,7 +191,8 @@ display: flex;
  width: 100%;
  height: auto;
 }
-.Saturday {
+#Saturday {
+    display: none;
     background-color: rgb(213, 213, 136);
     padding: 1rem;
     box-shadow: 0 0 30px grey;

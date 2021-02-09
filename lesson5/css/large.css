@@ -64,9 +64,14 @@
         padding: 1rem;
         width: 141px;
     }
-    .Saturday{
+    #Saturday{
         margin: 0 -20px 0 1px;
         font-size: 1.8rem;
     }
-   
+   figure.newsPhoto img {
+       width: 100%;
+       height: auto;
+       padding-top: 20px;
+       padding-right: 10px;
+   }
 }

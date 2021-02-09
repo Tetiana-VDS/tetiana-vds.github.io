@@ -108,12 +108,20 @@ display: flex;
 .newsText p{
     padding: 5px;
 }
-.news img {
-    width: 300px;
-    height: auto;
+ .news img {
+    
     padding: 5px;
 }
-.Saturday {
+main figure.newsPhoto{
+width: 500%;
+height: auto;
+}
+figure.newsPhoto img{
+    width: 100%;
+    height: auto;
+padding-top: 30px;}
+
+#Saturday {
     margin: 10px;
     font-size: 1.3rem;
 }

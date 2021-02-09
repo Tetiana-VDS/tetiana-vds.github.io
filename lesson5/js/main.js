@@ -9,7 +9,10 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-var dayOfWeek = new Date().getDay();
-if (dayOfWeek == 4) {
-    document.getElementById("Saturday").innerHTML
-}
+
+    var dayOfWeek = new Date().getDay();
+    if (dayOfWeek == 5) {
+        document.getElementById("Saturday").style.display = "block";
+    }
+
+ 
