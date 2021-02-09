@@ -40,12 +40,12 @@ nav ul li a {
     display: block;
 }
 .sevenDays {
-    padding: 0,9rem;
+    padding: 0.9rem;
     border: 1px solid #333;
     background-color: #afbab5;
 }
 .sevenDays img {
-    padding: 0,1rem;
+    padding: 0.1rem;
     width: 25px;
 }
 body {
@@ -68,7 +68,7 @@ footer {
     height: 128px;
 }
 .sevenDays img {
-    width: 103px;
+    width: 76px;
 }
 .measures {
     position: absolute;

@@ -129,7 +129,7 @@ display: flex;
     
      padding: 3px;
     overflow: hidden;
-    shape-outside: circle();
+    shape-outside: circle(50%);
     border-radius: 50%;
 }
 .contacts{
@@ -175,7 +175,6 @@ display: flex;
     padding: 5px;
     background-color: #b1bab6;
     box-shadow: 0 0 30px grey;
-    box-sizing: 100%;
 }
 .news img{
     width: 490px;
