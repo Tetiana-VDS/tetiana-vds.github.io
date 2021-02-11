@@ -10,7 +10,7 @@ body {
     line-height: 1.5rem;
     background-color: #CDD5D1;
     font-family: "Lato",
-        sans-serif;
+    sans-serif;
     height: 100%;
     width: 500px;
 }
@@ -20,8 +20,9 @@ header {
     align-content: center;
 justify-content: center;
     padding: 0;
-    font-family: 'Hammersmith One',
-    sans-serif;
+ font-family: "Bodoni Moda",
+ serif;
+     font-weight: 600;
 }
 #logoimg{
     width: 80px;
