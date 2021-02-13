@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston</title>
+    <meta name="description" content="Weather Site Page Preston, WDD 230, assignment week 6 by Tetiana Havryliuk">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="icon" href="lesson5/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="lesson5/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <section id="Saturday">Saturday - Preston Pancakes in the City Park!!! 9.00 a.m.
+    </section>
+
+    <header><img id="logoimg" src="Images/rainbow.png" alt="Logo image" />
+        <section class="heading">
+            <h1>Hot & Cold Local Weather Center</h1>
+            <h3>
+                WE CARE!!!
+            </h3>
+
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston-6.html"> Preston</a></li>
+            <li> <a href="">Soda Spring</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="herodiv">
+            <img src="Images/Preston-town-centre.jpeg" alt="Preston City View">
+            <section class="measures">
+                <h4><b>Weather Summary</b></h4>
+                <p>Currently: <span class="values">Windy</span>
+                </p>
+                <p>Temperature: <span class="values">56 &#x2109;</span></p>
+                <p>Wind Chill: <span class="values">&#x2109;</span></p>
+                <p>Humidity: <span class="values">74%</span></p>
+                <p>Wind Speed: <span class="values">18mph</span>
+                </p>
+            </section>
+        </div>
+
+        <div class="sevenDaysDiv">
+            <h3>7 Day Forecast</h3>
+            <table>
+                <tr>
+
+                    <th class="sevenDays">Tue</th>
+                    <th class="sevenDays">Wed</th>
+                    <th class="sevenDays">Thu</th>
+                    <th class="sevenDays">Fri</th>
+                    <th class="sevenDays">Sat</th>
+
+                </tr>
+                <tr>
+
+                    <td class="sevenDays">
+                        <img src="Images/sun.png" alt="weather">
+                    </td>
+                    <td class="sevenDays"><img src="Images/cloud.png" alt="Clouds"></td>
+                    <td class="sevenDays"><img src="Images/sunCloud.png" alt="Sun&Clouds"></td>
+                    <td class="sevenDays"><img src="Images/rain.png" alt="Rain"></td>
+                    <td class="sevenDays"><img src="Images/rain.png" alt=" Rain"></td>
+
+                </tr>
+                <tr>
+
+                    <th class="sevenDays">71&#x2109;</th>
+                    <th class="sevenDays">58&#x2109;</th>
+                    <th class="sevenDays">80&#x2109;</th>
+                    <th class="sevenDays">75&#x2109;</th>
+                    <th class="sevenDays">78&#x2109;</th>
+
+                </tr>
+            </table>
+        </div>
+        <div class="news">
+            <h3>Next-Gen Tech Trends</h3>
+            <h4 class="auther">By Tetiana Havryliuk</h4>
+            <section class="newsText">
+                <figure class="newsPhoto"><img src="Images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg"
+                        alt="Technology">
+                </figure>
+
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Consectetur est cupiditate eligendi id quibusdam nam error saepe natus voluptatem
+                    rem
+                    doloribus atque cumque reiciendis ad autem voluptatibus quos, quo quae, iure accusantium veritatis
+                    numquam
+                    animi distinctio? Reiciendis cupiditate obcaecati perspiciatis nam dolorem quam eius perferendis
+                    magni
+                    suscipit quia accusantium impedit quae eos, enim repudiandae deleniti odio, explicabo, libero
+                    doloribus
+                    fugiat cum rerum! Excepturi optio error repellat assumenda, et nam nemo vitae earum nihil sapiente
+                    ab!
+                    Ipsum
+                    excepturi culpa harum aperiam.</p>
+            </section>
+        </div>
+        <div class="contacts">
+            <section><img class="map" src="Images/map.png" alt="City Map"></section>
+            <section>
+                <h3>The Weather Site</h3>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p><br>
+                <p>&#x260E; 999.999.9999</p>
+                <p>&#x2709; hotcold.center</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/">
+                        <img class="social-link" src="Images/SocialMedia/facebook.png" alt="Facebook icon" />
+                    </a>
+                    <a href="https://www.twitter.com/">
+                        <img class="social-link" src="Images/SocialMedia/twitter.png" alt="Twitter icon" />
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img class="social-link" src="Images/SocialMedia/instagram.png" alt="Instagram Icon" />
+                    </a>
+                    <a href="https://www.gmail.com/">
+                        <img class="social-link" src="Images/SocialMedia/googleplus.png" alt="Instagram Icon" />
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        &copy; <span id="copyrightYear"></span> Tetiana Havryliuk | Bila Tserkva, Ukraine | <a
+            href="https://www.byui.edu/online"> BYU-I Online
+            Learning</a>
+        <div>Current Date: <span id="now"></span>
+        </div>
+        <script src="js/main.js"></script>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>

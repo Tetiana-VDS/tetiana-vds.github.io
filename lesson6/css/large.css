@@ -1,0 +1,66 @@
+@media only screen and (min-width: 64em) {
+   
+    body {
+        font-size: 18px;
+        line-height: 2rem;
+        padding: 10px;
+        min-width: 64rem;
+    }
+
+    header,
+    nav,
+    main,
+    footer {
+        margin: 1.25rem auto;
+        min-width: 64rem;
+    }
+    #logoimg{width:128px;
+        height:128px;
+   }
+  .herodiv {
+      position: relative;
+      float: left;
+
+  }
+  .herodiv img {
+      width: 64rem;
+      height: auto;
+  }
+   .measures {
+       position: absolute;
+       top: 60px;
+       left: 30px;
+       width: 250px;
+   }
+    nav button {
+        display: none;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .sevenDaysDiv {
+        display: inline-block;
+    }
+
+    .sevenDays {
+        padding: 0.1rem;
+        border: 1px solid #333;
+        background-color: #afbab5;
+    }
+
+    .sevenDays img {
+        padding: 1rem;
+        width: 139px;
+    }
+    #Saturday{
+        margin: 0 -20px 0 1px;
+        font-size: 1.8rem;
+    }
+   figure.newsPhoto img {
+       width: 100%;
+       height: auto;
+       padding-top: 20px;
+       padding-right: 10px;
+   }
+}
