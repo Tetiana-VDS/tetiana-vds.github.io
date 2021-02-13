@@ -42,7 +42,12 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="herodiv">
-            <img src="Images/Preston-town-centre.jpeg" alt="Preston City View">
+            <picture class="bannerA">
+                <source media="(max-width:600px)" srcset="Images/sizes/small400.jpg">
+                <source media="(max-width:1050px)" srcset="Images/sizes/Medium760.jpg">
+                <source media="(min-width:1060px)" srcset="Images/sizes/Large1060.jpg">
+                <img src="Images/sizes/Original.jpeg" alt="Preston City View">
+            </picture>
             <section class="measures">
                 <h4><b>Weather Summary</b></h4>
                 <p>Currently: <span class="values">Windy</span>
