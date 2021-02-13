@@ -20,7 +20,7 @@
   .herodiv {
       position: relative;
       float: left;
-
+margin: 10px auto;
   }
   .herodiv img {
       width: 64rem;
@@ -40,8 +40,8 @@
         border-right: 1px solid rgba(0, 0, 0, 0.3);
     }
     .sevenDaysDiv {
-   .sevenDaysDiv {
-       display: block;
+       display: inline;
+       margin: 0 auto;
    }
 
    .sevenDays {
@@ -63,4 +63,5 @@
        padding-top: 20px;
        padding-right: 10px;
    }
+   
 }

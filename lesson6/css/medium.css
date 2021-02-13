@@ -38,15 +38,17 @@ nav ul li a {
 } 
 .sevenDaysDiv {
     display: block;
+    margin: 0 auto;
 }
 .sevenDays {
+
     padding: 0.9rem;
     border: 1px solid #333;
     background-color: #afbab5;
 }
 .sevenDays img {
     padding: 0.1rem;
-   width: 76px;
+   width: 88px;
 }
 body {
     font-size: 17px;
