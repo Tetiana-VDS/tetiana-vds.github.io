@@ -46,7 +46,7 @@ nav ul li a {
 }
 .sevenDays img {
     padding: 0.1rem;
-    width: 25px;
+   width: 76px;
 }
 body {
     font-size: 17px;
@@ -67,9 +67,7 @@ footer {
     width: 128px;
     height: 128px;
 }
-.sevenDays img {
-    width: 76px;
-}
+
 .measures {
     position: absolute;
     top: 30px;

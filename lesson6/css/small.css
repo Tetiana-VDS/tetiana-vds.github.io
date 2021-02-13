@@ -188,9 +188,10 @@ display: flex;
 }
 
 .map {
- display:none;
+ display:block;
  width: 100%;
  height: auto;
+ padding: 10px;
 }
 #Saturday {
     display: none;
