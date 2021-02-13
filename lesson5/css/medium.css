@@ -121,4 +121,8 @@ padding-top: 30px;}
     margin: 10px;
     font-size: 1.3rem;
 }
+table{
+    position: relative;
+   margin: auto;
+}
 }
