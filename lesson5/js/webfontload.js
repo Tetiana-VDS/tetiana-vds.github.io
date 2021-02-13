@@ -1,2 +1,2 @@
-WebFont.load({google: {families: [ 'Roboto', ""] }
+WebFont.load({google: {families: [ 'Lato', "Bodoni Moda"] }
 });

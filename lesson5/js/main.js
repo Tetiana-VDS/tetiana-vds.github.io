@@ -11,7 +11,7 @@ function toggleMenu() {
 
 
     var dayOfWeek = new Date().getDay();
-    if (dayOfWeek == 5) {
+    if (dayOfWeek == 6) {
         document.getElementById("Saturday").style.display = "block";
     }
 
