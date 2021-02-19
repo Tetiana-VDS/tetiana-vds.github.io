@@ -13,7 +13,7 @@ nav ul.hide {
     display: flex;
 }
 nav ul li {
-    float: left;
+    
 flex: 1 1 auto;
 
 }
