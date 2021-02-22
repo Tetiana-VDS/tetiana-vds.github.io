@@ -74,12 +74,12 @@ nav ul li a {
 }
 
 nav a:hover {
-    background-color: #c4a5ae;
+    background-color: #b1929b;
     color: white;
 }
 
 .active {
-      background-color: #c4a5ae;
+      background-color: #b1929b;
       color: white;
 }
 nav ul.hide {
