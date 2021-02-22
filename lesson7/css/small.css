@@ -210,3 +210,26 @@ display: flex;
     text-transform: uppercase;
     text-align: center;
 }
+ .gallery {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+ }
+
+ figure {
+     border: 1px solid #333;
+    
+ }
+
+ figure img {
+     width: 100%;
+     height: auto;
+     padding: 3px;
+ }
+
+
+ figcaption {
+     font-size: smaller;
+     margin: 0px auto;
+     float: center;
+ }

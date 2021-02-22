@@ -124,4 +124,28 @@ table{
     position: relative;
    margin: auto;
 }
+ .gallery {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: auto;
+
+
+ }
+
+ #galleryTitle {
+     grid-column: 1 / -1;
+ }
+
+ figure {
+     border: 1px solid #333;
+ }
+
+ figure img {
+     max-width: 380px;
+     height: auto;
+     padding: 3px;
+ }
+ figcaption{
+     padding: 5px;
+ }
 }
