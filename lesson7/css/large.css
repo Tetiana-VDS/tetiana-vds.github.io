@@ -41,8 +41,7 @@ margin: 10px auto;
     }
     .sevenDaysDiv {
        display: inline-block;
-        padding-left: auto;
-        padding-right: auto;
+        margin: 0 auto;
      width: 100%;
    }
    .sevenDays {
