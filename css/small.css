@@ -19,7 +19,9 @@ footer {
     margin: 1.25rem auto;
     max-width: 760px;
 }
-
+main,header{
+    background-color: white;
+}
 nav {
     padding-bottom: 10px;
 }
