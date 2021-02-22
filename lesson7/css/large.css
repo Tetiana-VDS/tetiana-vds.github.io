@@ -75,7 +75,7 @@ figure img{
     width:100%;
     height: auto;
 }
-:hover {
+figure img:hover {
     box-shadow: 0 0 20px #333;
 
 }
