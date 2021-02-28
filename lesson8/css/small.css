@@ -104,7 +104,7 @@ header h3 {
     color: #c5c3c4
 }
 
-h2, h3, h4{
+h1, h2, h3, h4{
     text-align: center;
 padding-bottom: 10px;
 }
@@ -234,13 +234,14 @@ display: flex;
  /* --------FORM------------- */
  form fieldset {
      margin: 2rem 0;
-     border: 1px solid #445ba9;
+     border: 1px solid #615055;
      border-radius: 10px;
      padding: .5rem 2%;
  }
 
  form legend {
-     color: #445ba9;
+     color: #615055;
+     font-size: larger;
      margin: 0 1rem;
      padding: 0 .5rem;
  }
@@ -269,7 +270,7 @@ display: flex;
 
  form label.sds {
      display: block;
-     padding: .75rem 0;
+     padding: .45rem 0;
      color: #555;
  }
 
@@ -289,6 +290,22 @@ display: flex;
      border-left: red solid 6px;
  }
 
- form label.top input:required {
+ form label.top input:required:valid {
      border-left: green solid 6px;
+ }
+ textarea{
+     width: 100%;
+     max-width: 20rem;
+     min-height: rem;
+     border-radius: 4px;
+   background-color: rgba(0, 0, 0, 0.1);
+ }
+ .flexly {
+     display: flex;
+     align-items: center;
+ }
+
+ #ratingvalue {
+     margin: 0 15px;
+     color: #2771e7;
  }

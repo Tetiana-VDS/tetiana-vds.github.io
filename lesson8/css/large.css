@@ -78,6 +78,10 @@ figure img:hover {
     box-shadow: 0 0 20px #333;
 
 }
+form{
+    width: 800px;
+margin: 0 auto;
+}
 form label.sbs {
     padding: .4rem 0;
 }

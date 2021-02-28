@@ -148,4 +148,8 @@ table{
  figcaption{
      padding: 5px;
  }
+ form {
+     width: 600px;
+     margin: 0 auto;
+ }
 }
