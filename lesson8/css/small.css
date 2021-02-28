@@ -205,7 +205,7 @@ display: flex;
     display: none;
     background-color: rgb(213, 213, 136);
     padding: 1rem;
-    box-shadow: 0 0 30px grey;
+    box-shadow: 0 0 30px rgb(160, 157, 157);
     text-transform: uppercase;
     text-align: center;
 }
