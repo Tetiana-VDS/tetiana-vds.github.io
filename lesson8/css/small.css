@@ -130,7 +130,6 @@ display: flex;
 .social-link {
      padding: 3px;
     overflow: hidden;
-    shape-outside: circle();
     border-radius: 50%;}  
 .contacts{
     display: grid;
@@ -296,7 +295,7 @@ display: flex;
  textarea{
      width: 100%;
      max-width: 20rem;
-     min-height: rem;
+     min-height: 7rem;
      border-radius: 4px;
    background-color: rgba(0, 0, 0, 0.1);
  }

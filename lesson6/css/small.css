@@ -130,7 +130,6 @@ display: flex;
 .social-link {
      padding: 3px;
     overflow: hidden;
-    shape-outside:circle(50%);
     border-radius: 50%;}  
 
 .contacts {
