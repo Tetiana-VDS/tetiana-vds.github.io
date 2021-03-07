@@ -4,42 +4,27 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); 
-    const prophets = jsonObject['prophets'];
+        const prophets = jsonObject['prophets'];
         const cards = document.querySelector('.cards');
-     for (let i = 0;i < prophets.length;i++) {
+
          prophets.forEach(prophet => {
              let card = document.createElement('section');
              let h2 = document.createElement('h2');
+           let p1 = document.createElement('p');
+           let p2 = document.createElement('p');
              let image = document.createElement('img');
-           h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            image.setAttribute('src', prophets[i].imageurl);
-            image.setAttribute('alt', `${prophet.name} + '-' + ${prophet.order}`);
+           h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
+           p1.innerHTML =`Date of birth: ${prophet.birthdate}` 
+            p2.innerHTML =`Place of birth: ${prophet.birthplace}` 
+            image.setAttribute('src', prophet.imageurl);
+            image.setAttribute('alt', `${prophet.name} - ${prophet.order}`);
 
-            card.append(h2);
-            card.append(image);
-      
-            document.querySelector('div.cards').append(card);
-        });
-        };
-        })
-
-    //     const utah = document.querySelector('.utah');
-    //     const utahfilter = prophets.filter(x => x.birthplace == "Utah");
-
-    //     utahfilter.forEach(utahprophet => {
-    //         let card = document.createElement('section');
-    //         let h2 = document.createElement('h2');
-    //         let pimg = document.createElement('img');
-
-    //         h2.textContent = `${utahprophet.name} ${utahprophet.lastname}`;
-    //         pimg.setAttribute('src', utahprophet.imageurl);
-    //         pimg.setAttribute('alt', `Portrait of ${utahprophet.name} who was born in ${utahprophet.birthplace} in the year ${utahprophet.birthdate.
-    //             substring(utahprophet.birthdate.length - 4)}!`)
-                
-    //         card.append(h2);
-    //         card.append(pimg);
-    //         utah.append(card);
-    //     });
-          
-    // })
+             card.append(h2);
+           card.append(p1);
+              card.append(p2);
+             cards.append(card)
+             card.append(image);
+           });
+    });
+        WebFont.load({google: {families: [ 'Vollkorn', "Bodoni Moda"] }
+});
