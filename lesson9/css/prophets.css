@@ -10,31 +10,25 @@ body {
     font-family: Ubuntu,
         sans-serif;
       background-color: rgb(198, 198, 206);
-       margin: 0 auto;
-       text-align: center;    
+       text-align: center; 
+       justify-content: center;
 }
-
-img {
-    box-shadow: 0 0 30px 0;
-width: 200px;
-height: 330px;
-}
-
 .card {
+     
     padding: 10px;
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-gap: 8px;
-     justify-content: center;
+ margin: auto; 
      
 }
 
 footer,header {
+     width: 100%;
+     min-width: 330px;
     border-top: 1px solid #555;
-    min-width: 240px;
-
 }
-
+ div {
+     justify-content: center;
+     margin: 0 auto;
+ }
 h1 {
     border: 1px solid #ccc;
     padding: 15px;
@@ -49,62 +43,95 @@ h2,h1{
  color:rgb(56, 56, 114);
 
 }
-
+section main{
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: auto;
+  grid-gap: 8px;
+  justify-content: center;
+}
 section img {
     width: 250px;
-    box-sizing:240px;
+     box-shadow: 0 0 30px 0;
+    
 }
 section{
-    width: 330px;
+    min-width: 230px;
        border: 1px solid #333;
        background-color: rgb(178, 178, 209);
          padding: 1.25rem;
           line-height: 2rem;
 }
 
-@media only screen and (min-width: 37.5rem) {
-    
+@media only screen and (min-width: 32.5rem) {
 
     .cards{
-        min-width: 350px;
+    
+         max-width: 80%;
        display: grid;
        grid-template-columns: 1fr 1fr;
+       grid-template-rows: auto ;
        grid-gap: 8px;
+       
     }
-
+     img {
+         box-shadow: 0 0 30px 0;
+         width: 200px;
+         height: 320px;
+     }
+section {
+    min-width: 330px;
+    border: 1px solid #333;
+    background-color: rgb(178, 178, 209);
+    
+    line-height: 2rem;
+    
 }
-@media only screen and (min-width: 47.5rem) {
-
-
-    .cards {
-        min-width: 350px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-         justify-content: center;
-          grid-gap: 8px;
-    }
-
+ div {
+     justify-content: center;
+     margin: 0 auto;
+ }
 }
 
-@media only screen and (min-width: 64rem) {
+
+@media only screen and (min-width: 74rem) {
 
     body {
+        width: 90%;
         font-size: 18px;
         line-height: 2rem;
-        padding: 10px;
     }
 
     header,
-    main,
     footer {
-        margin: 1.25rem auto;
+        margin: 0 auto;
+          width: 100%;
+          justify-content: center;
+    }
+    img {
+        box-shadow: 0 0 30px 0;
+        width: 200px;
+        height: 320px;
     }
     .cards {
-        max-width: 80%;
+      
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-columns: repeat(4,1fr);
      grid-template-rows: auto;
-       margin: 0 auto;
-       margin-top: ;
+      margin: 1.25rem auto;
+        justify-content: center;
+        margin: auto;
     }
+    section {
+        min-width: 330px;
+        border: 1px solid #333;
+        background-color: rgb(178, 178, 209);
+        padding: 1.25rem;
+        line-height: 2rem;
+    }
+    div{
+ justify-content: center;
+ margin: 1.25rem auto;
+    }
+    
 }
