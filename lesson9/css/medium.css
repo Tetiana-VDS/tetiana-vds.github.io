@@ -1,0 +1,155 @@
+@media only screen and (min-width: 37.5em) {
+nav ul {
+    display: flex;
+   
+}
+nav a {
+    font-size: 4rem;
+}
+nav button {
+    display: none;
+}
+nav ul.hide {
+    display: flex;
+}
+nav ul li {
+    float: left;
+flex: 1 1 auto;
+
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: .6rem 1rem;
+
+}
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 760px;
+    height: auto;
+}
+.herodiv img {
+    
+    width: 760px;
+    height: auto;
+
+} 
+.sevenDaysDiv {
+    display: block;
+    margin: 0 auto;
+}
+.sevenDays {
+    padding: 0.9rem;
+    border: 1px solid #333;
+    background-color: #afbab5;
+}
+.sevenDays img {
+    padding: 0.1rem;
+   width: 88px;
+}
+body {
+    font-size: 17px;
+    line-height: 1.5rem;
+width: 800px;
+    padding: 10px;
+}
+  
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+#logoimg {
+    width: 128px;
+    height: 128px;
+}
+
+.measures {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 250px;
+}
+.contacts{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+   
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.map {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;}
+
+.news {
+    margin-top: 1.25rem;
+    padding: 5px;
+    background-color: #b1bab6;
+    box-shadow: 0 0 30px grey;
+    
+}
+.newsText{
+display: flex;
+ padding: 5px;
+}
+.newsText p{
+    padding: 5px;
+}
+ .news img {
+    
+    padding: 5px;
+}
+main figure.newsPhoto{
+width: 500%;
+height: auto;
+}
+figure.newsPhoto img{
+    width: 100%;
+    height: auto;
+padding-top: 30px;}
+
+#Saturday {
+    margin: 10px;
+    font-size: 1.3rem;
+}
+table{
+    position: relative;
+   margin: auto;
+}
+ .gallery {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: auto;
+
+
+ }
+
+ #galleryTitle {
+     grid-column: 1 / -1;
+ }
+
+ figure {
+     border: 1px solid #333;
+ }
+
+ figure img {
+     max-width: 380px;
+     height: auto;
+     padding: 3px;
+ }
+ figcaption{
+     padding: 5px;
+ }
+ form {
+     width: 600px;
+     margin: 0 auto;
+ }
+}

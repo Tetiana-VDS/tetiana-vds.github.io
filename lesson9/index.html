@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="description" content="Weather Site Page Preston, WDD 230, assignment week 9 by Tetiana Havryliuk">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="icon" href="lesson9/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="lesson9/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header><img id="logoimg" src="img/rainbow.png" alt="Logo image" />
+        <section class="heading">
+            <h1>Hot & Cold Local Weather Center</h1>
+            <h3>
+                WE CARE!!!
+            </h3>
+
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="https://tetiana-vds.github.io/lesson6/preston-6.html"> Preston</a></li>
+            <li> <a href="">Soda Spring</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li ><a href="">Storm Center</a></li>
+            <li><a href="https://tetiana-vds.github.io/lesson7/gallery-7.html">Gallery </a> </li>
+        </ul>
+    </nav>
+    <main class="">
+        <section class="columns">
+            <div id="one">
+                <h3>Visual Hierarchy</h3>
+                <p>Folkways</p>
+                <p><a href="http://folkways.today/borsh/" class="site">folkways.today</a></p>
+                <img src="Img/VisualHierarchy.jpg" alt="Visual Hierarchy">
+                <p>The first thing that viewers see when visiting this site is
+                    the traditional Slavic dish called “Borsch”. The bright
+                    contrasting colors and large size of the picture immediately
+                    catches our attention. Then goes the header or the title of
+                    the page and the logo of the site. Last of all the visitor will
+                    see the explanation text in a small font and the menu bar.
+                </p>
+            </div>
+
+            <div id="two">
+                <h3> Repetition</h3>
+                <p>Cumorah Academy</p>
+                <p><a href="https://cumorahacademy.org/">cumorahacademy.org</a></p>
+                <img src="Img/Retetition1.jpg" alt="Repetition">
+                <p>Even though, the Cumorah Academy main page is very bright,
+                    colorful and functional it still looks very consistent. Proper repetitions
+                    of colors and fonts, as well as sizes, shades, shapes and navigation
+                    structure create the balanced picture and a sense of cohesive relationship
+                    between all the elements. The visitor can easily find whatever he is looking
+                    for and navigate the site.
+                </p>
+            </div>
+            <div id="three">
+                <h3>White Space</h3>
+                <p>WeCanSoft</p>
+                <p><a href="http://wecansoft.com.ua/">wecansoft.com.ua</a></p>
+                <img src="Img/whitespace.jpg" alt="White Space">
+                <p>The desktop of WeCanSoft Company site demonstrates the
+                    White Space Design Principle very well. The reason is not
+                    in the white colors usage rather than in abundance of space
+                    in-between and around all of the elements placed on the page.
+                    It makes the site to look very neat, readable, focused and creates
+                    visual hierarchy.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        &copy; <span id="copyrightYear"></span> Tetiana Havryliuk | Bila Tserkva, Ukraine | <a
+            href="https://www.byui.edu/online"> BYU-I Online
+            Learning</a>
+        <div>Current Date: <span id="now"></span>
+        </div>
+        <script src="js/main.js"></script>
+
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>
