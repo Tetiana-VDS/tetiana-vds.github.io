@@ -52,7 +52,7 @@ nav button {
     color: #fff;
 }
 nav {
-    background-color: #9c8088;
+    background-color: #8f757c;
     text-align: center;
 
 }
@@ -360,8 +360,9 @@ padding: 2rem 1.25rem;
        margin-top: -0.75rem;
 
 }
-h2.homeTownNews {
-    margin-top: 20px;
+.homeTownNews h2 {
+    padding-top: 20px;
+    text-transform:uppercase;
 }
 .homeNewsText {
     display:block;

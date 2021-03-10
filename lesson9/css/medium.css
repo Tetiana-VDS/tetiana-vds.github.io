@@ -222,8 +222,7 @@ section.hometowns img {
     
 }
 .homeTnews{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      display: block;
   margin-top: 1rem;
   padding: 1rem;
 }
