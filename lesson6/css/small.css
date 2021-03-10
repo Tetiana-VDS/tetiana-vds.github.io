@@ -31,7 +31,7 @@ justify-content: center;
 
 header,
 footer {
-    background-color: #615055;
+    background-color: #4d4044;
     padding: 1rem;
     color: white;
     text-align: center;
@@ -52,8 +52,9 @@ nav button {
     color: #fff;
 }
 nav {
-    background-color: #9c8088;
+    background-color: #80646b;
     text-align: center;
+     font-weight: 900;
 
 }
 
@@ -74,12 +75,12 @@ nav ul li a {
 }
 
 nav a:hover {
-    background-color: #b1929b;
+    background-color: #9e7e86;
     color: white;
 }
 
 .active {
-      background-color: #b1929b;
+      background-color: #9e7e86;
       color: white;
 }
 nav ul.hide {
