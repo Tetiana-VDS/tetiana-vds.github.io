@@ -15,42 +15,84 @@ function toggleMenu() {
         document.getElementById("Saturday").style.display = "block";
     }
 
-const townDataURL = "https://byui-cit230.github.io/weather/data/towndata.json"
-const towns2get = [
-    "Preston",
-    "Fish Haven",
-    "Soda Springs"
-]
-const city = document.querySelector('.city');
-fetch(townDataURL)
-    .then((response) => {
-        return response.json()
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
     })
-    .then((jsonData) => {
-      const towns = jsonData["towns"].filter(item => towns2get.includes(item.name));
-
-        towns.forEach(towns2get => {
-        let town = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let p1 = document.createElement('p1');
-        let p2 = document.createElement('p2');
-        let p3 = document.createElement('p3');
-      let p4 = document.createElement('p4');
-     
-  
-        h2.innerHTML = `${towns2get.name}`;
-      p1.innerHTML = `Motto: ${towns2get.motto}`;
-      p2.innerHTML = `Year Founded: ${towns2get.yearFounded}`;
-        p3.innerHTML = `Population: ${towns2get.currentPopulation}`;
-        p4.innerHTML = `Average Rainfall: ${towns2get.averageRainfall}`;
+    .then(function (jsonObject) {
+        const towns = jsonObject['towns'];
+        const prestons = document.querySelector('.prestons');
+      // const fishH = document.querySelector('.fishH');
+      //  const sodaS = document.querySelector('.sodaS');
+      const prestonfilter = towns.filter(x => x.name == "Preston");
+      prestonfilter.forEach(prestontown => {
+             let preston = document.createElement('section');
+             let h2 = document.createElement('h2');
+           let p1 = document.createElement('p');
+        let p2 = document.createElement('p');
+        let p3 = document.createElement('p');
+let p4 = document.createElement('p');
+          
+           h2.innerHTML = `${prestontown.name}`;
+        p1.innerHTML = `<span style="font-weight:900">Motto:${prestontown.motto}</span> `;
+        p2.innerHTML = `<span style="font-weight:900">Year Founded:</span> ${prestontown.yearFounded}`;
+        p3.innerHTML = `<span style="font-weight:900">Population:</span> ${prestontown.currentPopulation}`;
+        p4.innerHTML = `<span style="font-weight:900">Average Rainfall:</span> ${prestontown.averageRainfall}`;
         
-  
-       city.append(town);
-        city.append(h2);
-        city.append(p1);
-        city.append(p2);
-       city.append(p3);
-        city.append(p4);
-  
+              prestons.append(preston);
+        preston.append(h2);
+           preston.append(p1);
+              preston.append(p2);
+        preston.append(p3);
+        preston.append(p4);
+       
       });
-    })
+      
+      const fishHs = document.querySelector('.fishHs');
+      const fishHfilter = towns.filter(x => x.name == "Fish Haven");
+      fishHfilter.forEach(fishHtown => {
+             let fishH = document.createElement('section');
+             let h2 = document.createElement('h2');
+           let p1 = document.createElement('p');
+        let p2 = document.createElement('p');
+         let p3 = document.createElement('p');
+           let p4 = document.createElement('p');
+          
+           h2.innerHTML = `${fishHtown.name}`;
+           p1.innerHTML = `<span style="font-weight:900">Motto:${fishHtown.motto}</span> `;
+        p2.innerHTML = `<span style="font-weight:900">Year Founded:</span> ${fishHtown.yearFounded}`;
+         p3.innerHTML = `<span style="font-weight:900">Population:</span> ${fishHtown.currentPopulation}`;
+        p4.innerHTML = `<span style="font-weight:900">Average Rainfall:</span> ${fishHtown.averageRainfall}`;
+        
+             fishH.append(h2);
+           fishH.append(p1);
+              fishH.append(p2);
+        fishHs.append(fishH);
+        fishH.append(p3);
+              fishH.append(p4);
+      });
+       const sodas = document.querySelector('.sodas');
+      const sodafilter = towns.filter(x => x.name == "Soda Springs");
+      sodafilter.forEach(sodatown => {
+             let soda = document.createElement('section');
+             let h2 = document.createElement('h2');
+           let p1 = document.createElement('p');
+        let p2 = document.createElement('p');
+        let p3 = document.createElement('p');
+           let p4 = document.createElement('p');
+          
+           h2.innerHTML = `${sodatown.name}`;
+           p1.innerHTML = `<span style="font-weight:900">Motto:${sodatown.motto}</span> `;
+        p2.innerHTML = `<span style="font-weight:900">Year Founded:</span> ${sodatown.yearFounded}`;
+         p3.innerHTML = `<span style="font-weight:900">Population:</span>${sodatown.currentPopulation}`;
+        p4.innerHTML = `<span style="font-weight:900">Average Rainfall:</span> ${sodatown.averageRainfall}`;
+        
+             soda.append(h2);
+           soda.append(p1);
+              soda.append(p2);
+        sodas.append(soda);
+        soda.append(p3);
+              soda.append(p4);
+           });
+       });
