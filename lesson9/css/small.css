@@ -325,12 +325,5 @@ display: flex;
         margin: auto;
     }
 
-    section.city {
-        min-width: 330px;
-        border: 1px solid #333;
-        background-color: rgb(178, 178, 209);
-        padding: 1.25rem;
-        line-height: 2rem;
-    }
 
    
