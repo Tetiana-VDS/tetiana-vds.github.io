@@ -23,8 +23,6 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
         const prestons = document.querySelector('.prestons');
-      // const fishH = document.querySelector('.fishH');
-      //  const sodaS = document.querySelector('.sodaS');
       const prestonfilter = towns.filter(x => x.name == "Preston");
       prestonfilter.forEach(prestontown => {
              let preston = document.createElement('section');
