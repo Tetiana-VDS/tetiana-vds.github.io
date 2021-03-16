@@ -76,7 +76,7 @@ footer {
     position: absolute;
     top: 30px;
     left: 30px;
-    width: 250px;
+    min-width: 300px;
 }
 .contacts{
     display:grid;

@@ -142,7 +142,9 @@ display: flex;
     
 }
 .values{
-    color: rgb(91, 91, 172);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 600;
 }
 .herodiv {
     display: block;
@@ -163,6 +165,9 @@ display: flex;
    	box-shadow: 0 0 20px #111;
        opacity: .93;
        width: 300px;
+        font-size: larger;
+        font-weight: 600;
+
       
 }
 .news{

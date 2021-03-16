@@ -4,8 +4,7 @@
         font-size: 18px;
         line-height: 2rem;
         padding: 10px;
-        min-width: 64rem;
-        display: block;
+
     }
 
     header,
@@ -15,21 +14,21 @@
         margin: 1.25rem auto;
         min-width: 64rem;
     }
+   
     #logoimg{width:128px;
         height:128px;
    }
-  .herodiv {
-      display: block;
-      position: relative;
-      float: left;
-margin: 10px auto;
-  }
+   div.herodiv{
+ margin: 0 auto;
+  width: 100%;
+   }
   .herodiv img {
-      display: block;
-      width: 64rem;
+      min-width: 64rem;
+     
       height: auto;
+     
   }
-   .measures {
+  section.measures {
        position: absolute;
        top: 60px;
        left: 30px;
