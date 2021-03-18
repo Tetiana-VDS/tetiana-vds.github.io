@@ -1,0 +1,228 @@
+@media only screen and (min-width: 37.5em) {
+/* Navigation  */
+    nav ul {
+    display: flex;
+   
+}
+nav a {
+    font-size: 4rem;
+}
+nav button {
+    display: none;
+}
+nav ul.hide {
+    display: flex;
+}
+nav ul li {
+    float: left;
+flex: 1 1 auto;
+
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: .6rem 1rem;
+
+}
+/* Banner */
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+   width: 100%;;
+    height: auto;
+}
+.herodiv img {
+    
+    width: 100%;
+    height: auto;
+
+} 
+/* Five Days Forecast */
+.sevenDaysDiv {
+    display: block;
+    margin: 0 auto;
+}
+.sevenDays {
+    padding: 0.9rem;
+    border: 1px solid #333;
+    background-color: #afbab5;
+}
+.sevenDays img {
+    padding: 0.1rem;
+   width: 88px;
+}
+body {
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+}
+  
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    width: 100%;
+}
+
+#logoimg {
+    width: 128px;
+    height: 128px;
+}
+
+.measures {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
+}
+.contacts{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.map {
+    display: block;
+    position: relative;
+    max-width: 380px;
+    width: 100%;
+    height: auto;}
+
+.news {
+    margin-top: 1.25rem;
+    padding: 5px;
+    background-color: #b1bab6;
+    box-shadow: 0 0 30px grey;
+    
+}
+.newsText{
+display: flex;
+ padding: 5px;
+}
+.newsText p{
+    padding: 5px;
+}
+
+figure.newsPhoto img{
+    width: 100%;
+    height: auto;
+padding-top: 30px;
+max-width: 380px;}
+
+#Saturday {
+    margin: 10px;
+    font-size: 1.3rem;
+}
+table{
+    position: relative;
+   margin: auto;
+}
+ .gallery {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: auto;
+
+
+ }
+
+ #galleryTitle {
+     grid-column: 1 / -1;
+ }
+
+ .gallery figure {
+     border: 1px solid #333;
+ }
+
+ figure img {
+     max-width: 380px;
+     height: auto;
+     padding: 3px;
+ }
+ figcaption{
+     padding: 5px;
+ }
+ form {
+     width: 600px;
+     margin: 0 auto;
+ }
+.hometowns{
+    display: grid;
+    grid-template-columns: 1fr;
+     margin: .5rem auto;
+     
+}
+section.hometowns img {
+    max-width: 340px;
+    width: 100%;
+    box-shadow: 0 0 30px 0;
+}
+.prestons {
+    display: flex;
+    flex-direction: row-reverse;
+    min-width: 600px;
+     width: 100%;
+    text-align: center;
+    border: 1px solid #333;
+    background-color: rgb(160, 175, 160);
+    padding: 2rem 1.25rem;
+}
+
+.sodas {
+    display: flex;
+    flex-direction: row;
+    min-width: 600px;
+     width: 100%;
+    text-align: center;
+    border: 1px solid #333;
+    background-color: rgb(160, 175, 160);
+    padding: 2rem 1.25rem;
+}
+
+.fishHs {
+     display: flex;
+     flex-direction: row;
+   justify-content: space-around;
+     min-width: 600px;
+      width: 100%;
+    text-align: center;
+    border: 1px solid #333;
+    background-color: rgb(160, 175, 160);
+    padding: 2rem 1.25rem;
+
+}
+.prestons img{
+    margin-left: 70px;
+}
+.fishHs img {
+    margin-left: -50px ;
+}
+
+.homeTownNews{
+ margin-top: 1.25rem;
+ padding: 5px;
+ background-color: #b1bab6;
+ box-shadow: 0 0 30px grey;
+}
+.homeNewsText {
+  
+    padding: 5px;
+    text-align: justify;
+    
+}
+.homeTnews{
+      display: block;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.homeTnews img{
+    float: right;
+    min-width: 360px;
+    width: 100%;
+    padding-left: 20px ;
+    margin: 10px;
+    
+}
+}
