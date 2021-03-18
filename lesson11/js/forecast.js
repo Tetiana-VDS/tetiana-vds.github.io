@@ -8,9 +8,9 @@ fetch(apiURL)
         const current = document.querySelector('#current');
         current.innerHTML = jsObject.list[0].weather[0].main;
         const temperature = document.querySelector('#temp');
-        temperature.innerHTML = Math.round(jsObject.list[0].main.temp);
+        temperature.innerHTML = Math.round(jsObject.list[0].main.temp) + "&#8457";
         const humidity = document.querySelector('#humid');
-        humidity.innerHTML = jsObject.list[0].main.humidity;
+        humidity.innerHTML = jsObject.list[0].main.humidity + "&#37;";
         const windspeed = document.querySelector('#speed')
         windspeed.innerHTML = jsObject.list[0].wind.speed;
 
@@ -39,10 +39,11 @@ fetch(apiURL32)
         const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         thefive.forEach(forecast => {
             let d = new Date(forecast.dt_txt);
-             const imagesrc = 'https://openweathermap.org/img/w/${forecast.weather[0].icon}.png';
+             const imagesrc ='https://openweathermap.org/img/w/${forecast.weather[0].icon}.png';
             const desc = forecast.weather[0].description;
             document.getElementById(`dayofWeek${day + 1}`).textContent = dayofWeek[d.getDay()];
             document.getElementById(`forecast${day + 1}`).textContent = Math.round(forecast.main.temp);
+            document.getElementById(`date${day + 1}`).textContent = months[d.getMonth()] +","+ d.getDate();
             document.getElementById(`wicon${day + 1}`).setAttribute('src', imagesrc);
             document.getElementById(`wicon${day + 1}`).setAttribute('alt', desc);
             
