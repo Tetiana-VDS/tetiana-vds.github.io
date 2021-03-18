@@ -65,7 +65,11 @@ footer {
     margin: 1.25rem auto;
     width: 100%;
 }
-
+footer {
+    display: block;
+    text-align: center;
+    font-size: 1.25rem;
+}
 #logoimg {
     width: 128px;
     height: 128px;
