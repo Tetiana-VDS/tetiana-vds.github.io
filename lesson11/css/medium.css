@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 32.5rem) {
 /* Navigation  */
     nav ul {
     display: flex;
@@ -39,22 +39,9 @@ nav ul li a {
 
 } 
 /* Five Days Forecast */
-.sevenDaysDiv {
-    display: block;
-    margin: 0 auto;
-}
-.sevenDays {
-    padding: 0.9rem;
-    border: 1px solid #333;
-    background-color: #afbab5;
-}
-.sevenDays img {
-    padding: 0.1rem;
-   width: 88px;
-}
+
 body {
     font-size: 17px;
-    width: 100%;
     padding: 10px;
 }
   
@@ -87,6 +74,12 @@ footer {
     grid-template-rows: auto;
     margin-top: 1rem;
     padding: 1rem;
+}
+.social {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
 }
 .map {
     display: block;
@@ -229,4 +222,24 @@ section.hometowns img {
     margin: 10px;
     
 }
+   /* 5 day forecast */
+   .five {
+
+       margin: 10px;
+       padding: 10px;
+       display: flex;
+       border-radius: 4px solid #333;
+
+   }
+
+   .fivebox {
+         
+
+       border: 1px solid #333;
+       background-color: rgb(160, 175, 160);
+   }
+
+   .Wdays {
+     
+   }
 }

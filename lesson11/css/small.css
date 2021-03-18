@@ -1,3 +1,6 @@
+html{
+     scroll-behavior: smooth;
+}
 * {
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +15,7 @@ body {
     font-family: "Lato",
     sans-serif;
     height: auto;
-    max-width: 32.5rem;
+    max-width: 960px;
 }
 
 header {
@@ -23,6 +26,7 @@ justify-content: center;
  font-family: "Bodoni Moda",
  serif;
      font-weight: 600;
+
 }
 #logoimg{
     width: 80px;
@@ -96,7 +100,6 @@ nav ul.hide {
 } */
 p {
     text-indent: 20px;
-    /* Отступ первой строки в пикселах */
 }
 
 footer a {
@@ -123,7 +126,7 @@ margin: 1.25rem;
     clear: both;
 }
 .social {
-display: flex;
+display: block;
     margin: 10px;
     padding:  10px;
     justify-content: center;
@@ -300,7 +303,7 @@ display: flex;
 
  #ratingvalue {
      margin: 0 15px;
-     color: #2771e7;
+     color: #0b5fe6;
  }
  /* Wire Frame */
  .wireframes{
@@ -378,11 +381,16 @@ padding: 2rem 1.25rem;
 }
    /* 5 day forecast */
 .five{
-    display: flex;
+    
     margin: 10px;
     padding: 10px';
 }
 .fivebox{
     border: 1px solid #333;
     background-color: rgb(160, 175, 160);
+}
+.Wdays{
+display: block;
+ border-radius: 4px solid #333;
+
 }
