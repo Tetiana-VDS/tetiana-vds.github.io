@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preston</title>
-    <meta name="description" content="Weather Site Page Preston, WDD 230, assignment week 11 by Tetiana Havryliuk">
+    <meta name="description" content="Hot&Cold Weather Center Site, Preston Page, WDD 230, by Tetiana Havryliuk">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -33,8 +33,8 @@
             <li><a href="https://tetiana-vds.github.io/lesson11/index.html">Home</a></li>
             <li class="active"><a href="https://tetiana-vds.github.io/lesson11/preston.html"> Preston</a></li>
             <li> <a href="https://tetiana-vds.github.io/lesson11/sodaSpring.html">Soda Spring</a></li>
-            <li><a href=" https://tetiana-vds.github.io/lesson11/fishHaven.html">Fish Haven</a> </li> <li><a
-                        href="https://tetiana-vds.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href=" https://tetiana-vds.github.io/lesson11/fishHaven.html">Fish Haven</a> </li>
+            <li><a href="https://tetiana-vds.github.io/lesson11/stormcenter.html">Storm Center</a></li>
             <li><a href="https://tetiana-vds.github.io/lesson11/gallery.html">Gallery</a></li>
         </ul>
     </nav>
@@ -62,21 +62,36 @@
         <div class="fivebox">
             <h3>5-DAY FORECAST</h3>
             <div class="five">
-                <div>
+                <div class="Wdays">
                     <p><span id="dayofWeek1"></span></p>
                     <p id="date1"></p>
                     <p><img id="wicon1" src="" alt="" style="height: 80px; width: auto;"></p>
                     <p><span id="forecast1"></span> &deg; F</p>
                 </div>
-
-                <p><span id="dayofWeek2"></span> <span id="forecast2"></span>&deg; F <span id="date2"></span><span
-                        id="wicon2"></span></p>
-                <p><span id="dayofWeek3"></span>: <span id="forecast3"></span>&deg; F<span id="date3"></span><span
-                        id="wicon3"></span></p>
-                <p><span id="dayofWeek4"></span>: <span id="forecast4"></span>&deg; F<span id="date4"></span><span
-                        id="wicon4"></span></p>
-                <p><span id="dayofWeek5"></span>: <span id="forecast5"></span>&deg; F<span id="date5"></span><span
-                        id="wicon5"></span></p>
+                <div class="Wdays">
+                    <p><span id="dayofWeek2"></span></p>
+                    <p id="date2"></p>
+                    <p><img id="wicon2" src="" alt="" style="height: 80px; width: auto;"></p>
+                    <p><span id="forecast2"></span> &deg; F</p>
+                </div>
+                <div class="Wdays">
+                    <p><span id="dayofWeek3"></span></p>
+                    <p id="date3"></p>
+                    <p><img id="wicon3" src="" alt="" style="height: 80px; width: auto;"></p>
+                    <p><span id="forecast3"></span> &deg; F</p>
+                </div>
+                <div class="Wdays">
+                    <p><span id="dayofWeek4"></span></p>
+                    <p id="date4"></p>
+                    <p><img id="wicon4" src="" alt="" style="height: 80px; width: auto;"></p>
+                    <p><span id="forecast4"></span> &deg; F</p>
+                </div>
+                <div class="Wdays">
+                    <p><span id="dayofWeek5"></span></p>
+                    <p id="date5"></p>
+                    <p><img id="wicon5" src="" alt="" style="height: 80px; width: auto;"></p>
+                    <p><span id="forecast5"></span> &deg; F</p>
+                </div>
             </div>
         </div>
 
@@ -136,10 +151,9 @@
             Weather Map</a>| Tetiana Havryliuk | <a href=" https://tetiana-vds.github.io/lesson11/wireframes.html">Wire
             Frames</a> | <span id="now"></span>
         </div>
-        <script src="js/main.js"></script>
-
 
     </footer>
+    <script src="js/main.js"></script>
     <script src="js/forecast.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontload.js"></script>
