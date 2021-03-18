@@ -29,12 +29,12 @@ nav ul li a {
 .herodiv {
     margin: 10px auto;
     position: relative;
-    width: 760px;
+   width: 100%;;
     height: auto;
 }
 .herodiv img {
     
-    width: 760px;
+    width: 100%;
     height: auto;
 
 } 
@@ -54,8 +54,7 @@ nav ul li a {
 }
 body {
     font-size: 17px;
-    line-height: 1.5rem;
-width: 800px;
+    width: 100%;
     padding: 10px;
 }
   
@@ -64,7 +63,7 @@ nav,
 main,
 footer {
     margin: 1.25rem auto;
-    max-width: 760px;
+    width: 100%;
 }
 
 #logoimg {
@@ -76,20 +75,19 @@ footer {
     position: absolute;
     top: 30px;
     left: 30px;
-    min-width: 300px;
+    
 }
 .contacts{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-   
     margin-top: 1rem;
     padding: 1rem;
 }
 .map {
-    display: inline-block;
+    display: block;
     position: relative;
-    min-width: 380px;
+    max-width: 380px;
     width: 100%;
     height: auto;}
 
@@ -107,18 +105,12 @@ display: flex;
 .newsText p{
     padding: 5px;
 }
- .news img {
-    
-    padding: 5px;
-}
-main figure.newsPhoto{
-width: 500%;
-height: auto;
-}
+
 figure.newsPhoto img{
     width: 100%;
     height: auto;
-padding-top: 30px;}
+padding-top: 30px;
+max-width: 380px;}
 
 #Saturday {
     margin: 10px;
@@ -140,7 +132,7 @@ table{
      grid-column: 1 / -1;
  }
 
- figure {
+ .gallery figure {
      border: 1px solid #333;
  }
 
@@ -159,7 +151,6 @@ table{
 .hometowns{
     display: grid;
     grid-template-columns: 1fr;
-   
      margin: .5rem auto;
      
 }
