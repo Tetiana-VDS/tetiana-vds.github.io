@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -11,8 +12,8 @@ body {
     background-color: #CDD5D1;
     font-family: "Lato",
     sans-serif;
-    height: 100%;
-    width: 300px;
+    height: auto;
+    max-width: 960px;
 }
 
 header {
@@ -23,6 +24,7 @@ justify-content: center;
  font-family: "Bodoni Moda",
  serif;
      font-weight: 600;
+
 }
 #logoimg{
     width: 80px;
@@ -94,10 +96,7 @@ nav ul.hide {
     margin: auto;
     text-align: center;
 } */
-p {
-    text-indent: 20px;
-    /* Отступ первой строки в пикселах */
-}
+
 
 footer a {
     color: white;
@@ -123,7 +122,7 @@ margin: 1.25rem;
     clear: both;
 }
 .social {
-display: flex;
+display: block;
     margin: 10px;
     padding:  10px;
     justify-content: center;
@@ -133,6 +132,7 @@ display: flex;
      padding: 3px;
     overflow: hidden;
     border-radius: 50%;}  
+
 .contacts{
     display: block;
     grid-template-rows: auto;
@@ -149,7 +149,7 @@ display: flex;
 .herodiv {
     display: block;
     grid-template-columns: 1fr;
-    padding: 5px;
+   
 }
 .herodiv img{
     
@@ -161,27 +161,31 @@ display: flex;
     display: block;
    	background: linear-gradient(#eee, #535657);
    	border: 1px solid #000;
-   	padding: 1rem;
+   	padding: 0.3rem;
    	box-shadow: 0 0 20px #111;
        opacity: .93;
-        font-size: larger;
+        font-size: 1rem;
         font-weight: 600;
-
-      
 }
-.news{
+/* Preston News */
+.prestonNews {
     display: block;
-    padding: 5px;
+  
     background-color: #b1bab6;
     box-shadow: 0 0 30px grey;
-      text-align: justify;
-      text-justify: inter-word;
+      
+        
 }
-.news img{
-    
+.prestonNews img {
     width: 100%;
     height:auto;
-   padding: 5px;
+  
+}
+.prestonNews p{
+text-align: justify;
+ line-height: 2rem;
+ text-indent: 30px;
+ padding: 20px;
 }
 .auther{
     color: #333;
@@ -189,10 +193,10 @@ display: flex;
 
 .map {
  display:block;
- max-width: 300px;
+ max-width: 400px;
  width: 100%;
  height: auto;
- padding: 10px;
+ 
 }
 #Saturday {
     display: none;
@@ -300,7 +304,7 @@ display: flex;
 
  #ratingvalue {
      margin: 0 15px;
-     color: #2771e7;
+     color: #0b5fe6;
  }
  /* Wire Frame */
  .wireframes{
@@ -362,6 +366,7 @@ padding: 2rem 1.25rem;
     padding: 3px;
     text-align: justify;
      line-height: 2rem;
+     text-indent: 30px;
     
 }
 
@@ -378,11 +383,22 @@ padding: 2rem 1.25rem;
 }
    /* 5 day forecast */
 .five{
-    display: flex;
+    
     margin: 10px;
-    padding: 10px';
+    	padding: 0.3rem;
 }
 .fivebox{
     border: 1px solid #333;
     background-color: rgb(160, 175, 160);
+}
+.Wdays{
+display: block;
+ border: 1px solid #333;
+ padding: 10px;
+ margin: 10px;
+border-radius: 10%;
+text-align: center;
+   background-color: rgb(113, 116, 113);
+color: white;
+
 }
