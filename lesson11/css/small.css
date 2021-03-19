@@ -149,7 +149,7 @@ display: block;
 .herodiv {
     display: block;
     grid-template-columns: 1fr;
-    padding: 5px;
+   
 }
 .herodiv img{
     
@@ -167,19 +167,25 @@ display: block;
         font-size: 1rem;
         font-weight: 600;
 }
-.news{
+/* Preston News */
+.prestonNews {
     display: block;
-    padding: 5px;
+  
     background-color: #b1bab6;
     box-shadow: 0 0 30px grey;
-      text-align: justify;
-      text-justify: inter-word;
+      
+        
 }
-.news img{
-    
+.prestonNews img {
     width: 100%;
     height:auto;
-   padding: 5px;
+  
+}
+.prestonNews p{
+text-align: justify;
+ line-height: 2rem;
+ text-indent: 30px;
+ padding: 20px;
 }
 .auther{
     color: #333;
@@ -190,7 +196,7 @@ display: block;
  max-width: 300px;
  width: 100%;
  height: auto;
- padding: 10px;
+ 
 }
 #Saturday {
     display: none;
@@ -360,6 +366,7 @@ padding: 2rem 1.25rem;
     padding: 3px;
     text-align: justify;
      line-height: 2rem;
+     text-indent: 30px;
     
 }
 
