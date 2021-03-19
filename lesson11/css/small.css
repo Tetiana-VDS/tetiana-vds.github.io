@@ -1,6 +1,4 @@
-html{
-     scroll-behavior: smooth;
-}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -98,8 +96,9 @@ nav ul.hide {
     margin: auto;
     text-align: center;
 } */
-p {
+p.hometowns {
     text-indent: 20px;
+
 }
 
 footer a {
@@ -136,6 +135,7 @@ display: block;
      padding: 3px;
     overflow: hidden;
     border-radius: 50%;}  
+
 .contacts{
     display: block;
     grid-template-rows: auto;
@@ -164,13 +164,11 @@ display: block;
     display: block;
    	background: linear-gradient(#eee, #535657);
    	border: 1px solid #000;
-   	padding: 1rem;
+   	padding: 0.3rem;
    	box-shadow: 0 0 20px #111;
        opacity: .93;
-        font-size: larger;
+        font-size: 1rem;
         font-weight: 600;
-
-      
 }
 .news{
     display: block;
@@ -383,7 +381,7 @@ padding: 2rem 1.25rem;
 .five{
     
     margin: 10px;
-    padding: 10px';
+    	padding: 0.3rem;
 }
 .fivebox{
     border: 1px solid #333;
@@ -391,6 +389,12 @@ padding: 2rem 1.25rem;
 }
 .Wdays{
 display: block;
- border-radius: 4px solid #333;
+ border: 1px solid #333;
+ padding: 10px;
+ margin: 10px;
+border-radius: 10%;
+text-align: center;
+   background-color: rgb(113, 116, 113);
+color: white;
 
 }

@@ -57,7 +57,6 @@ let p4 = document.createElement('p');
          let p3 = document.createElement('p');
            let p4 = document.createElement('p');
           
-         let image = document.createElement('img');
          
            h2.innerHTML = `${fishHtown.name}`;
            p1.innerHTML = `<span style="font-weight:900">Motto:${fishHtown.motto}</span> `;
@@ -65,16 +64,14 @@ let p4 = document.createElement('p');
          p3.innerHTML = `<span style="font-weight:900">Population:</span> ${fishHtown.currentPopulation}`;
          p4.innerHTML = `<span style="font-weight:900">Average Rainfall:</span> ${fishHtown.averageRainfall}`;
          
-          image.setAttribute('src', fishHtown.photo);
-            image.setAttribute('alt', `${fishHtown.name}`);
-        
+
              fishH.append(h2);
            fishH.append(p1);
               fishH.append(p2);
         fishHs.append(fishH);
         fishH.append(p3);
          fishH.append(p4);
-         fishH.append(image);
+      
       });
        const sodas = document.querySelector('.sodas');
       const sodafilter = towns.filter(x => x.name == "Soda Springs");

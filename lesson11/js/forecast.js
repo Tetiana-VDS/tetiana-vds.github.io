@@ -39,7 +39,7 @@ fetch(apiURL32)
         const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         thefive.forEach(forecast => {
             let d = new Date(forecast.dt_txt);
-             const imagesrc ='https://openweathermap.org/img/w/${forecast.weather[0].icon}.png';
+             const imagesrc =`https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
             const desc = forecast.weather[0].description;
             document.getElementById(`dayofWeek${day + 1}`).textContent = dayofWeek[d.getDay()];
             document.getElementById(`forecast${day + 1}`).textContent = Math.round(forecast.main.temp);

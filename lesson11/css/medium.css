@@ -222,24 +222,28 @@ section.hometowns img {
     margin: 10px;
     
 }
-   /* 5 day forecast */
-   .five {
+    /* 5 day forecast */
+    .five {
+display: flex;
+        margin: 5px;
+        padding: 0.3rem;
+    }
 
-       margin: 10px;
-       padding: 10px;
-       display: flex;
-       border-radius: 4px solid #333;
+    .fivebox {
+        border: 1px solid #333;
+        background-color: rgb(160, 175, 160);
+    }
 
-   }
-
-   .fivebox {
-         
-
-       border: 1px solid #333;
-       background-color: rgb(160, 175, 160);
-   }
-
-   .Wdays {
-     
-   }
+    .Wdays {
+        border: 1px solid #333;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10%;
+        text-align: center;
+        background-color: rgb(113, 116, 113);
+        color: white;
+        text-shadow: black;
+        box-sizing: content-box;
+        text-size: 0.2rem;
+    }
 }
