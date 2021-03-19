@@ -83,10 +83,12 @@ footer {
 }
 .map {
     display: block;
-    position: relative;
-    max-width: 380px;
+    max-width: 400px;
     width: 100%;
-    height: auto;}
+    height: auto;
+    margin: auto;
+     box-shadow: 0 0 20px black;
+}
 
 /* Preston News */
 .prestonNews {
@@ -229,6 +231,7 @@ section.hometowns img {
     /* 5 day forecast */
     .five {
 display: flex;
+justify-content: center;
         margin: 5px;
         padding: 0.3rem;
     }
@@ -236,6 +239,7 @@ display: flex;
     .fivebox {
         border: 1px solid #333;
         background-color: rgb(160, 175, 160);
+        padding-bottom: 30px;
     }
 
     .Wdays {
@@ -246,8 +250,8 @@ display: flex;
         text-align: center;
         background-color: rgb(113, 116, 113);
         color: white;
-        text-shadow: black;
+        box-shadow: 0 0 6px black;
         box-sizing: content-box;
-        text-size: 0.2rem;
+        text-size: 0.4rem;
     }
 }
