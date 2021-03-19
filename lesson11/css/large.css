@@ -18,16 +18,13 @@
     #logoimg{width:128px;
         height:128px;
    }
-   div.herodiv{
+   /* div.herodiv{
  margin: 0 auto;
   width: 100%;
-   }
-  .herodiv img {
-      min-width: 64rem;
-     
+   } */
+  /* .herodiv img {
       height: auto;
-     
-  }
+  } */
   section.measures {
        position: absolute;
        top: 60px;
