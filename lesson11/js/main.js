@@ -18,9 +18,9 @@ function toggleMenu() {
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(requestURL)
     .then(function (response) {
-        return response.json();
+       return response.json();
     })
-    .then(function (jsonObject) {
+   .then(function (jsonObject) {
         const towns = jsonObject['towns'];
         const prestons = document.querySelector('.prestons');
       const prestonfilter = towns.filter(x => x.name == "Preston");
