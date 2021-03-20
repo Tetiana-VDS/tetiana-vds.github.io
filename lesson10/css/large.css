@@ -41,6 +41,10 @@
     
     #Saturday{
         font-size: 1.8rem;
+        width: 100%;
+    }
+    #Saturday div{
+        width: 100%;
     }
   .gallery {
        display: grid;
