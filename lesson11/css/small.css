@@ -54,7 +54,7 @@ nav button {
     color: #fff;
 }
 nav {
-    background-color: #80646b;
+    background-color: #72555d;
     text-align: center;
     font-weight: 900;
    
@@ -78,12 +78,12 @@ nav ul li a {
 }
 
 nav a:hover {
-    background-color: #9e7e86;
+    background-color: #916c75;
     color: white;
 }
 
 .active {
-      background-color: #9e7e86;
+      background-color: #916c75;
       color: white;
 }
 nav ul.hide {
