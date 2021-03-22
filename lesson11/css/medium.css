@@ -151,34 +151,39 @@ table{
      width: 600px;
      margin: 0 auto;
  }
-.hometowns{
+/* .hometowns{
     display: grid;
     grid-template-columns: 1fr;
      margin: .5rem auto;
      
-}
-section.hometowns img {
-    max-width: 340px;
+} */
+.hometowns img {
+    max-width: 440px;
     width: 100%;
     box-shadow: 0 0 30px 0;
+    margin: 10px;
 }
 .prestons {
+    font-size: larger;
     display: flex;
     flex-direction: row-reverse;
-    min-width: 600px;
      width: 100%;
     text-align: center;
+justify-content: space-between;
+padding: 20px;
     border: 1px solid #333;
     background-color: rgb(160, 175, 160);
     padding: 2rem 1.25rem;
 }
 
 .sodas {
+      font-size: larger;
     display: flex;
     flex-direction: row;
-    min-width: 600px;
      width: 100%;
     text-align: center;
+    justify-content: space-between;
+    padding: 20px;
     border: 1px solid #333;
     background-color: rgb(160, 175, 160);
     padding: 2rem 1.25rem;
@@ -186,22 +191,22 @@ section.hometowns img {
 
 .fishHs {
      display: flex;
-     flex-direction: row;
-   justify-content: space-around;
-     min-width: 600px;
+    font-size: larger;
       width: 100%;
+      justify-content: space-between;
+      padding: 20px;
     text-align: center;
     border: 1px solid #333;
     background-color: rgb(160, 175, 160);
     padding: 2rem 1.25rem;
 
 }
-.prestons img{
+/* .prestons img{
     margin-left: 70px;
 }
 .fishHs img {
     margin-left: -50px ;
-}
+} */
 
 .homeTownNews{
  margin-top: 1.25rem;
