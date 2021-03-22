@@ -1,5 +1,5 @@
   // Soda Springs
-  const apiURL4 = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
+  const apiURL4 = "https://api.openweathermap.org/data/2.5/forecast?id=5593096&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
 fetch(apiURL4)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -29,7 +29,7 @@ else{
           windchill();
     });
 
-        const apiURL42 = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
+        const apiURL42 = "https://api.openweathermap.org/data/2.5/forecast?id=5593096&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
 fetch(apiURL42)
     .then((response) => response.json())
     .then((jsObject) => {

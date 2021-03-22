@@ -21,7 +21,8 @@ fetch(requestURL)
        return response.json();
     })
    .then(function (jsonObject) {
-        const towns = jsonObject['towns'];
+      const towns = jsonObject['towns'];
+      console.log(towns);
         const prestons = document.querySelector('.prestons');
       const prestonfilter = towns.filter(x => x.name == "Preston");
       prestonfilter.forEach(prestontown => {
