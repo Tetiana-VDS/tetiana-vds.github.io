@@ -128,9 +128,9 @@ display: block;
 }
 .map {
     display: block;
-    min-width: 490px;
+    max-width: 520px;
     width: 100%;
-    height: auto;
+    max-height: 350px;
     margin: 10px 30px;
     box-shadow: 0 0 20px black;
 }
