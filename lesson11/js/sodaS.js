@@ -3,7 +3,6 @@
 fetch(apiURL4)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
         let day = 0;
         
         const current = document.querySelector('#current');
@@ -33,9 +32,7 @@ else{
 fetch(apiURL42)
     .then((response) => response.json())
     .then((jsObject) => {
-         console.log(jsObject);
         const thefive = jsObject.list.filter(time => time.dt_txt.includes('18:00:00'));
-        console.log(thefive);
         let day = 0;
         const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         thefive.forEach(forecast => {
@@ -59,10 +56,8 @@ fetch(requestURL7)
     })
    .then(function (jsonObject) {
       const towns = jsonObject['towns'];
-      console.log(towns);
         const events = document.querySelector('.mainEvents');
        const townfilter = towns.filter(i => i.name == "Soda Springs");
-       console.log(townfilter);
        
        const mainevents = townfilter[0].events; 
        document.getElementById(`event1`).textContent = townfilter[0].events[0];
