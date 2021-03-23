@@ -404,3 +404,19 @@ text-align: center;
 color: white;
 
 }
+/* Events */
+.events h2{
+    text-decoration: underline;
+}
+#event1{
+    font-size: large;
+margin-bottom: 15px;
+}
+#event2 {
+    font-size: large;
+    margin-bottom: 15px;
+}
+#event3 {
+    font-size: large;
+    margin-bottom: 15px;
+}
