@@ -173,6 +173,7 @@ display: block;
   
     background-color: #b1bab6;
     box-shadow: 0 0 30px grey;
+    width: 100%;
       
         
 }
@@ -419,4 +420,7 @@ margin-bottom: 15px;
 #event3 {
     font-size: large;
     margin-bottom: 15px;
+}
+article{
+
 }
