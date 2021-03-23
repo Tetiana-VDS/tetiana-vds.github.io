@@ -25,6 +25,7 @@ fetch(requestURL)
       console.log(towns);
         const prestons = document.querySelector('.prestons');
       const prestonfilter = towns.filter(x => x.name == "Preston");
+       console.log(prestonfilter);
       prestonfilter.forEach(prestontown => {
              let preston = document.createElement('section');
              let h2 = document.createElement('h2');

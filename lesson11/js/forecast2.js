@@ -1,5 +1,5 @@
   // Soda Springs
-  const apiURL4 = "https://api.openweathermap.org/data/2.5/forecast?id=5593096&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
+  const apiURL4 = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
 fetch(apiURL4)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -29,7 +29,7 @@ else{
           windchill();
     });
 
-        const apiURL42 = "https://api.openweathermap.org/data/2.5/forecast?id=5593096&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
+        const apiURL42 = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
 fetch(apiURL42)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -52,3 +52,21 @@ fetch(apiURL42)
         });
        
     });
+const requestURL7 = "https://byui-cit230.github.io/weather/data/towndata.json";
+fetch(requestURL7)
+    .then(function (response) {
+       return response.json();
+    })
+   .then(function (jsonObject) {
+      const towns = jsonObject['towns'];
+      console.log(towns);
+        const events = document.querySelector('.mainEvents');
+       const townfilter = towns.filter(i => i.name == "Fish Haven");
+       console.log(townfilter);
+       
+       const mainevents = townfilter[0].events; 
+       document.getElementById(`event1`).textContent = townfilter[0].events[0];
+       document.getElementById(`event2`).textContent = townfilter[0].events[1];
+            document.getElementById(`event3`).textContent = townfilter[0].events[2];
+
+   });
