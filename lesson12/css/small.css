@@ -65,3 +65,9 @@ h1,h2,h3{
     border-radius: 50%;
     background-color: red;
 }
+.bold{
+    font-weight: 900;
+}
+main img{
+    width: 100%;
+}
