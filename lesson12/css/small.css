@@ -28,13 +28,12 @@ body{
 line-height: 1.6;}
 
 header, footer{
-   text-align: center;
     background-color: var(--clr-header-footer);
 color: var(--clr-text);
    padding: 10px;
 }
-nav{
-    background-color: var(--clr-header-footer);
+footer{
+    text-align: center;
 }
 h1,h2,h3{
     text-align: center;
@@ -54,35 +53,44 @@ h1,h2,h3{
 #mainHeader{
  font-family: var(--ff-main-title);
  letter-spacing: 3.5px;
+ font-size: 3rem;
+ align-self: center;
+}
+.headerStructure {
+    display: flex;
+    justify-content: center;
+     flex-wrap: wrap;
+}
+#logoimg {
+    border: 3px solid white;
+    margin: 30px;
 }
 .social{
-    
-    display: inline;
-    float: right;
-    margin: 1rem;
+  display: flex;
+flex-direction: row;
+justify-content: flex-end;
+
 }
 .social-link {
-    padding: 1px;
+   
     overflow: hidden;
     border-radius: 50%;
-    background-color: black;
+    background-color: red;
+    margin: 2px;
 }
 .bold{
     font-weight: 900;
+    
 }
 main img{
     width: 100%;
 }
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 nav button {
     margin: .2rem 2%;
     background: transparent;
     border: none;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #fff;
 }
 
@@ -90,10 +98,7 @@ nav {
     background-color: var(--clr-header-footer);
         text-align: center;
     font-weight: 900;
-
-
 }
-
 nav ul {
     list-style-type: none;
     margin: 0px;
@@ -123,11 +128,14 @@ nav a:hover {
 nav ul.hide {
     display: none;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 footer {
     display: block;
     text-align: center;
     font-size: 0.90rem;
 }
-#logoimg {
-    border-box: 3px solid #333;
-}
+
