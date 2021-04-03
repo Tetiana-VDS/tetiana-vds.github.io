@@ -27,3 +27,14 @@
         padding: .6rem 1rem;
 font-size: 1.1rem;
     }
+    .contacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        margin-top: 1rem;
+        padding: 1rem;
+        font-size: 1.6rem;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+    }
+}

@@ -138,4 +138,8 @@ footer {
     text-align: center;
     font-size: 0.90rem;
 }
-
+.contacts {
+    display: block;
+    grid-template-rows: auto;
+    text-align: center;
+}
