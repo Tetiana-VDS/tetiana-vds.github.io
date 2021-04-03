@@ -26,14 +26,15 @@ body{
     font-size: 1.5rem;
     background-color: var(--clr-primary-main);
 line-height: 1.6;}
-header, footer{
 
+header, footer{
+   text-align: center;
     background-color: var(--clr-header-footer);
 color: var(--clr-text);
-   
+   padding: 10px;
 }
 nav{
-    background-color: var(--clr-nav);
+    background-color: var(--clr-header-footer);
 }
 h1,h2,h3{
     text-align: center;
@@ -52,6 +53,7 @@ h1,h2,h3{
 }
 #mainHeader{
  font-family: var(--ff-main-title);
+ letter-spacing: 3.5px;
 }
 .social{
     
@@ -63,11 +65,69 @@ h1,h2,h3{
     padding: 1px;
     overflow: hidden;
     border-radius: 50%;
-    background-color: red;
+    background-color: black;
 }
 .bold{
     font-weight: 900;
 }
 main img{
     width: 100%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav button {
+    margin: .2rem 2%;
+    background: transparent;
+    border: none;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+nav {
+    background-color: var(--clr-header-footer);
+        text-align: center;
+    font-weight: 900;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: var(--clr-nav);
+    color: white;
+}
+
+.active {
+    background-color: var(--clr-nav);
+    color: white;
+}
+
+nav ul.hide {
+    display: none;
+}
+footer {
+    display: block;
+    text-align: center;
+    font-size: 0.90rem;
+}
+#logoimg {
+    border-box: 3px solid #333;
 }
