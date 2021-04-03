@@ -1,7 +1,67 @@
+:root{
+    --clr-primary-main: #F6E3B6;
+    --clr-header-footer: #186777;
+    --clr-nav: #279DA5;
+    --clr-news: #ee7953;
+    --clr-bussiness: #c64a42;
+    --clr-events: #9e1a30;
+    --clr-text: white;
+
+    --ff-primary:'Montserrat',
+    sans-serif;
+    --ff-main-title:'Lobster',
+    cursive;
+    --ff-headings: 'Oswald',
+    sans-serif;
+    --ff-events: 'Merriweather',
+    serif;
+}
 * {
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    width
+    font-family: var(--ff-primary);
+    font-weight: 300;
+    font-size: 1.5rem;
+    background-color: var(--clr-primary-main);
+line-height: 1.6;}
+header, footer{
+
+    background-color: var(--clr-header-footer);
+color: var(--clr-text);
+   
+}
+nav{
+    background-color: var(--clr-nav);
+}
+h1,h2,h3{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-family: var(--ff-headings);
+    line-height: 1;
+}
+
+.container{
+    margin-inline: auto;
+    width: min(90%, 80.5rem);
+    text-indent: 50px;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+#mainHeader{
+ font-family: var(--ff-main-title);
+}
+.social{
+    
+    display: inline;
+    float: right;
+    margin: 1rem;
+}
+.social-link {
+    padding: 1px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: red;
 }
