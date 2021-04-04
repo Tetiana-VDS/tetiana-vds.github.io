@@ -60,6 +60,7 @@ h1,h2,h3{
     display: flex;
     justify-content: center;
      flex-wrap: wrap;
+     align-items: center;
 }
 #logoimg {
     border: 3px solid white;
@@ -142,4 +143,7 @@ footer {
     display: block;
     grid-template-rows: auto;
     text-align: center;
+}
+.map{
+    
 }
