@@ -2,4 +2,40 @@
   nav ul li a {
       font-size: 1.4rem;
   }
+   .missionCircles {
+     display: flex;
+     position: absolute;
+     bottom: -82px;
+     left: 20px;
+     width: 97%;
+     justify-content: space-around;
+
+   }
+
+   .mission {
+     font-family: var(--ff-headings);
+     color: white;
+     width: 200px;
+     background-color: var(--clr-news);
+     border-radius: 50%;
+     font-weight: 900;
+     font-size: 2.2rem;
+     text-decoration: underline;
+     text-align: center;
+     height: 190px;
+     line-height: 170px;
+     opacity: 0.9;
+   }
+
+   .organization {
+     display: block;
+     text-align: center;
+   }
+
+   .eachOrganization {
+     background-color: var(--clr-events);
+
+   }
+
+   .eachOrganization img {}
 }

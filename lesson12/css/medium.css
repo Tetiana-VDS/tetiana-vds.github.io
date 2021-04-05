@@ -37,4 +37,41 @@ font-size: 1.1rem;
         border-bottom: 1px solid black;
         padding-bottom: 10px;
     }
+    .missionCircles {
+        display: flex;
+        position: absolute;
+        bottom: -52px;
+        left: 10px;
+        width: 97%;
+        justify-content: space-around;
+
+    }
+
+    .mission {
+        font-family: var(--ff-headings);
+        color: white;
+        width: 150px;
+        height: 150px
+        background-color: var(--clr-news);
+        border-radius: 50%;
+        font-weight: 900;
+        font-size: 1.9rem;
+        text-decoration: underline;
+        text-align: center;
+        height: 130px;
+        line-height: 110px;
+        opacity: 0.9;
+    }
+
+    .organization {
+        display: block;
+        text-align: center;
+    }
+
+    .eachOrganization {
+        background-color: var(--clr-events);
+
+    }
+
+    .eachOrganization img {}
 }

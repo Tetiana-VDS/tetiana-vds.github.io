@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BTCC</title>
+    <title>City Overview</title>
     <meta name="description" content="BILA TSERKVA CHAMBER OF COMMERCE SITE, WDD 230, by Tetiana Havryliuk">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="css/small.css" rel="stylesheet">
@@ -29,26 +29,72 @@
                 <img class="social-link" src="img/SocialMedia/googleplus.png" alt="Gmail Icon" />
             </a>
         </div>
-        <img id="logoimg" src="img/logo.png" alt="Bila Tserkva city flag" />
-        <section class="heading">
-            <h1>BILA TSERKVA CHAMBER OF COMMERCE</h1>
-            <h3>
-                CAN WE CARE MORE?!
-            </h3>
 
-        </section>
+        <div class="headerStructure">
+            <img id="logoimg" src="img/logo.png" alt="Bila Tserkva city flag" />
+            <section class="heading">
+                <h1 id="mainHeader">BILA TSERKVA<br> CHAMBER OF COMMERCE</h1>
+                <h3>
+                    CAN WE CARE MORE?!
+                </h3>
+                <nav class="clearfix">
+                    <button onclick="toggleMenu()">&#9776;Menu</button>
+                    <ul id="primaryNav" class="hide">
+                        <li><a href="">Home</a></li>
+                        <li class="active"><a href="">City Overview</a></li>
+                        <li><a href="">Businesses</a></li>
+                        <li><a href="">Upcoming Events</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+
+            <img src="" alt="">
+        </div>
     </header>
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;Menu</button>
-        <ul id="primaryNav" class="hide">
-            <li class="active"><a href="">Home</a></li>
-            <li><a href="">Bila Tserkva History</a></li>
-            <li><a href="">Businesses</a></li>
-            <li><a href="">Upcoming Events</a></li>
-            <li><a href="">Contacts</a></li>
-        </ul>
-    </nav>
+    <main>
+        <div class="banmis">
+            <img class="banner" src="img/banner2.jpeg" alt="Bila Tserkva City">
+            <div class="missionCircles">
+                <p class="mission">Awareness</p>
+                <p class="mission">Safety</p>
+                <p class="mission">Prosperity</p>
+                <p class="mission">Development</p>
+                <p class="mission">Unity</p>
+            </div>
+        </div>
+        <section class="upcomingEvents">
+            <div class="events"></div>
+            <div class="forcast"></div>
+        </section>
+        <section class="organization">
+            <div class="eachOrganization">
+                <h2>Local Government</h2>
+                <p></p>
+                <img src="img/City Roman Naumov/City Hall.jpeg" alt="City Hall">
+                <p>09117, str. Yaroslav the Wise, 15 fax 39-21-59</p>
+                <a href="https://bc-rada.gov.ua/">Email: https://bc-rada.gov.ua/</a>
+            </div>
+            <div class="eachOrganization"></div>
+            <div class="eachOrganization"></div>
+        </section>
+    </main>
     <footer>
+        <div class="contacts">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164798.04967574117!2d29.981902859318573!3d49.805440579511306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d3423e37227b9d%3A0x84e311f8582cc6e8!2sBila%20Tserkva%2C%20Kyiv%20Oblast%2C%2009100!5e0!3m2!1sen!2sua!4v1617476659790!5m2!1sen!2sua"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <section>
+                <br>
+                <h3>BILA TSERKVA<br> CHAMBER OF COMMERCE</h3>
+                <p>Alexandria Bul. 165</p>
+                <p>Bila Tserkva, Ukraine</p><br>
+                <p>Postal code: 09100</p>
+                <p>&#x260E; Tel.: 999.999.9999</p>
+                <p>&#x2709; bila-commerce.com </p>
+            </section>
+        </div>
         &copy; <span id="copyrightYear"></span> Tetiana Havryliuk | Bila Tserkva, Ukraine | <a
             href="https://www.byui.edu/online"> BYU-I Online
             Learning</a>
