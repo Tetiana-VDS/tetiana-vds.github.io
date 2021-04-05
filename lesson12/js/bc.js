@@ -1,37 +1,9 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
+  const apiURL = "https://api.openweathermap.org/data/2.5/forecast?lat=49.8094&lon=30.1121&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        let day = 0;
-        
-        const current = document.querySelector('#current');
-        current.innerHTML = jsObject.list[0].weather[0].main;
-        const temperature = document.querySelector('#temp');
-        temperature.innerHTML = Math.round(jsObject.list[0].main.temp) + "&#8457";
-        const humidity = document.querySelector('#humid');
-        humidity.innerHTML = jsObject.list[0].main.humidity + "&#37;";
-        const windspeed = document.querySelector('#speed')
-        windspeed.innerHTML = jsObject.list[0].wind.speed;
-
-         function windchill() {
-var temperature = parseFloat(document.querySelector('#temp').innerHTML);
-    var windSpeed = parseFloat(document.querySelector('#speed').innerHTML);
-    var chill = Math.round(35.74 + 0.6215 * temperature - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * temperature * Math.pow(windSpeed, 0.16)));
-if ( temperature <= 50 && windSpeed > 3){
-    document.getElementById("windchill").innerHTML = chill.toFixed(0) + "&#8457";
-}
-else{
-    document.getElementById("windchill").innerHTML="N/A";
-} 
-        }
-          windchill();
-    });
-
-        const apiURL32 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
-fetch(apiURL32)
-    .then((response) => response.json())
-    .then((jsObject) => {
-        const thefive = jsObject.list.filter(time => time.dt_txt.includes('18:00:00'));
+        console.log(apiURL);
+    const thefive = jsObject.list.filter(time => time.dt_txt.includes('18:00:00'));
         let day = 0;
         const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         thefive.forEach(forecast => {
@@ -49,21 +21,21 @@ fetch(apiURL32)
        
     });
   
-const requestURL7 = "https://byui-cit230.github.io/weather/data/towndata.json";
-fetch(requestURL7)
-    .then(function (response) {
-       return response.json();
-    })
-   .then(function (jsonObject) {
-      const towns = jsonObject['towns'];
-        const events = document.querySelector('.mainEvents');
-       const townfilter = towns.filter(i => i.name == "Preston");
+// const requestURL7 = "https://byui-cit230.github.io/weather/data/towndata.json";
+// fetch(requestURL7)
+//     .then(function (response) {
+//        return response.json();
+//     })
+//    .then(function (jsonObject) {
+//       const towns = jsonObject['towns'];
+//         const events = document.querySelector('.mainEvents');
+//        const townfilter = towns.filter(i => i.name == "Preston");
        
-       const mainevents = townfilter[0].events; 
-       document.getElementById(`event1`).textContent = townfilter[0].events[0];
-       document.getElementById(`event2`).textContent = townfilter[0].events[1];
-            document.getElementById(`event3`).textContent = townfilter[0].events[2];
+//        const mainevents = townfilter[0].events; 
+//        document.getElementById(`event1`).textContent = townfilter[0].events[0];
+//        document.getElementById(`event2`).textContent = townfilter[0].events[1];
+//             document.getElementById(`event3`).textContent = townfilter[0].events[2];
 
-   });
+//    });
   
 
