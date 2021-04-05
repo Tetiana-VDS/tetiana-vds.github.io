@@ -28,14 +28,47 @@
    }
 
    .organization {
-     display: block;
-     text-align: center;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
    }
 
    .eachOrganization {
+     display: block;
      background-color: var(--clr-events);
 
    }
 
    .eachOrganization img {}
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+    }
+
+    #galleryTitle {
+      grid-column: 1 / -1;
+    }
+
+    figure {
+      border: 1px solid #333;
+    }
+
+    figure img {
+      width: 100%;
+      height: auto;
+    }
+
+    figure img:hover {
+      box-shadow: 0 0 20px #333;
+
+    }
+
+    form {
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    form label.sbs {
+      padding: .4rem 0;
+    }
 }

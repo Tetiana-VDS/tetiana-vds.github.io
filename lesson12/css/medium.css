@@ -1,4 +1,4 @@
-@media only screen and (min-width: 42.5rem) {
+@media only screen and (min-width: 43.5rem) {
 
     /* Navigation  */
     nav ul {
@@ -64,14 +64,46 @@ font-size: 1.1rem;
     }
 
     .organization {
-        display: block;
-        text-align: center;
+      display: block;
+       
     }
 
     .eachOrganization {
+display: flex;
         background-color: var(--clr-events);
-
+ text-align: center;
     }
 
-    .eachOrganization img {}
+    .eachOrganization img {
+        float: left;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    #galleryTitle {
+        grid-column: 1 / -1;
+    }
+
+    .gallery figure {
+        border: 1px solid #333;
+    }
+
+    figure img {
+        max-width: 520px;
+        height: auto;
+        padding: 3px;
+        margin: 0 auto;
+    }
+
+    figcaption {
+        padding: 5px;
+    }
+
+    form {
+        width: 600px;
+        margin: 0 auto;
+    }
 }

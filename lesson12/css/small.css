@@ -196,3 +196,25 @@ width: 90%;
     width: 100%;
     min-width: 200px;
 }
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+figure {
+    border: 1px solid #333;
+
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    padding: 3px;
+}
+
+
+figcaption {
+    font-size: large;
+}
