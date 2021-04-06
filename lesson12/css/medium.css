@@ -64,23 +64,28 @@ font-size: 1.1rem;
     }
 
     .organization {
-      display: block;
+      display: grid;
+      grid-template-columns: 1fr;
        
     }
 
     .eachOrganization {
-display: flex;
+
         background-color: var(--clr-events);
- text-align: center;
+
     }
 
     .eachOrganization img {
-        float: left;
+        float: right;
+        width: 45%;
+        float:right;
+
     }
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+        
     }
 
     #galleryTitle {
@@ -106,4 +111,10 @@ display: flex;
         width: 600px;
         margin: 0 auto;
     }
+    .left{
+       float: left;
+       width: 50%;
+    }
+   
+    
 }

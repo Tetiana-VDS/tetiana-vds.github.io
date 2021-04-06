@@ -30,16 +30,23 @@
    .organization {
        display: grid;
        grid-template-columns: 1fr 1fr 1fr;
+       gap: 1rem;
    }
 
    .eachOrganization {
-     display: block;
+     display: grid;
      background-color: var(--clr-events);
-
+line-height: 2.5rem;
+text-align: left;
    }
 
    .eachOrganization img {
-     width: 90%;
+     width: 100%;
+     text-align: center;
+     margin: 0 auto;
+   }
+   .left{
+     width: 100%;
    }
     .gallery {
       display: grid;
