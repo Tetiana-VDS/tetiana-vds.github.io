@@ -5,7 +5,7 @@
    .missionCircles {
      display: flex;
      position: absolute;
-     bottom: -82px;
+     bottom: -102px;
      left: 20px;
      width: 97%;
      justify-content: space-around;

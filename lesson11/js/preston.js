@@ -32,6 +32,7 @@ fetch(apiURL32)
     .then((response) => response.json())
     .then((jsObject) => {
         const thefive = jsObject.list.filter(time => time.dt_txt.includes('18:00:00'));
+        console.log(jsObject);
         let day = 0;
         const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         thefive.forEach(forecast => {

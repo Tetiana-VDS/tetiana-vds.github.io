@@ -40,7 +40,7 @@ font-size: 1.1rem;
     .missionCircles {
         display: flex;
         position: absolute;
-        bottom: -52px;
+        bottom: -92px;
         left: 10px;
         width: 97%;
         justify-content: space-around;
@@ -58,8 +58,8 @@ font-size: 1.1rem;
         font-size: 1.9rem;
         text-decoration: underline;
         text-align: center;
-        height: 130px;
-        line-height: 110px;
+        height: 150px;
+        line-height: 130px;
         opacity: 0.9;
     }
 
