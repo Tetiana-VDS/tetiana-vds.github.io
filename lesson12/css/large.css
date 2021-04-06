@@ -80,4 +80,21 @@ text-align: left;
     form label.sbs {
       padding: .4rem 0;
     }
+    .news1{
+      margin: 2rem;
+      text-indent: 2rem;
+    }
+    .news1 img{
+      float: right;
+      padding: 1rem;
+    }
+     .news2 {
+       margin: 2rem;
+       text-indent: 2rem;
+     }
+
+     .news2 img {
+       float: left;
+       padding: 1rem;
+     }
 }
