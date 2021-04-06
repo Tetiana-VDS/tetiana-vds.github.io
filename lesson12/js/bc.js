@@ -22,21 +22,19 @@ fetch(apiURL)
        
     });
 
-// const requestURL7 = "https://byui-cit230.github.io/weather/data/towndata.json";
-// fetch(requestURL7)
-//     .then(function (response) {
-//        return response.json();
-//     })
-//    .then(function (jsonObject) {
-//       const towns = jsonObject['towns'];
-//         const events = document.querySelector('.mainEvents');
-//        const townfilter = towns.filter(i => i.name == "Preston");
-       
-//        const mainevents = townfilter[0].events; 
-//        document.getElementById(`event1`).textContent = townfilter[0].events[0];
-//        document.getElementById(`event2`).textContent = townfilter[0].events[1];
-//             document.getElementById(`event3`).textContent = townfilter[0].events[2];
+const requestURL = "js/events.json";
+fetch(requestURL)
+    .then(function (response) {
+       return response.json();
+    })
+    .then(function (jsonObject) {
+        console.log(jsonObject);
+       const mainevents = jsonObject[0].events; 
+       document.getElementById(`event1`).textContent = jsonObject[0].event[0];
+       document.getElementById(`event2`).textContent = jsonObject.events[1];
+        document.getElementById(`event3`).textContent = jsonObject.events[2];
+         document.getElementById(`event4`).textContent = jsonObject.events[3];
 
-//    });
+   });
   
 

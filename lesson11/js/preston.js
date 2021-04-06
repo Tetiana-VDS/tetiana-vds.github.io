@@ -59,8 +59,9 @@ fetch(requestURL7)
       const towns = jsonObject['towns'];
         const events = document.querySelector('.mainEvents');
        const townfilter = towns.filter(i => i.name == "Preston");
-       
+      
        const mainevents = townfilter[0].events; 
+        console.log(mainevents);
        document.getElementById(`event1`).textContent = townfilter[0].events[0];
        document.getElementById(`event2`).textContent = townfilter[0].events[1];
             document.getElementById(`event3`).textContent = townfilter[0].events[2];

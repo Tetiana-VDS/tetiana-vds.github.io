@@ -217,10 +217,10 @@ opacity: 0.9;
     background-color: var(--clr-events);
     padding: 1.6rem 0.7rem;
 margin-bottom: 30px;
+/* color: white; */
 }
 .eachOrganization img{
 width: 90%;
-width
 }
 .map iframe{
     width: 100%;
