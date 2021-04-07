@@ -13,7 +13,6 @@ fetch(apiURL)
             const desc = forecast.weather[0].description;
             document.getElementById(`dayofWeek${day + 1}`).textContent = dayofWeek[d.getDay()];
             document.getElementById(`forecast${day + 1}`).textContent = Math.round(forecast.main.temp);
-            document.getElementById(`date${day + 1}`).textContent = months[d.getMonth()] +","+ d.getDate();
             document.getElementById(`wicon${day + 1}`).setAttribute('src', imagesrc);
             document.getElementById(`wicon${day + 1}`).setAttribute('alt', desc);
             
@@ -29,11 +28,10 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.log(jsonObject);
-       const mainevents = jsonObject[0].events; 
-       document.getElementById(`event1`).textContent = jsonObject[0].event[0];
-       document.getElementById(`event2`).textContent = jsonObject.events[1];
-        document.getElementById(`event3`).textContent = jsonObject.events[2];
-         document.getElementById(`event4`).textContent = jsonObject.events[3];
+       document.getElementById(`event1`).textContent = jsonObject[0].event;
+       document.getElementById(`event2`).textContent = jsonObject[1].event;
+        document.getElementById(`event3`).textContent = jsonObject[2].event;
+         document.getElementById(`event4`).textContent = jsonObject[3].event;
 
    });
   
