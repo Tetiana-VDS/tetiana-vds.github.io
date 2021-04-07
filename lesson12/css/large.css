@@ -97,4 +97,16 @@ text-align: left;
        float: left;
        padding: 1rem;
      }
+     .eventtocome{
+       display: grid;
+       grid-template-columns: 2fr 1fr;
+       background-color: var(--clr-news);
+
+     }
+     .mainEvents{
+
+     }
+     .forecast{
+display: flex;
+     }
 }
