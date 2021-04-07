@@ -115,6 +115,25 @@ font-size: 1.1rem;
        float: left;
        width: 50%;
     }
-   
+    .eventtocome {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background-color: var(--clr-news);
+
+    }
+
+    .mainEvents {
+        font-size: smaller;
+        font-weight: 900;
+    }
+
+    .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .Wdays {
+        display: block;
+    }
     
 }

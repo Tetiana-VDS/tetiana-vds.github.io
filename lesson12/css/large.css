@@ -99,15 +99,18 @@ text-align: left;
      }
      .eventtocome{
        display: grid;
-       grid-template-columns: 2fr 1fr;
+       grid-template-columns: 6fr 1fr;
        background-color: var(--clr-news);
 
      }
      .mainEvents{
 
      }
-     .forecast{
-display: grid;
+     .weather{
+display: frid;
 grid-template-columns: 1fr 1fr 1fr;
+     }
+     .Wdays{
+       display: block;
      }
 }
