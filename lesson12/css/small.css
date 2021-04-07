@@ -293,6 +293,7 @@ line-height: 3rem;
 
 .mainEvents {
     display: block;
+    margin: auto 0;
    
 }
 
@@ -314,6 +315,7 @@ line-height: 3rem;
     color: white;
     font-weight: 900;
      width: 90%;
+      margin: auto 0;
 }
 
  /* --------FORM------------- */
@@ -415,5 +417,27 @@ margin: 1rem;
 }
 .eachBusiness{
  border: 2px solid #333;
- padding: 1rem;
+ padding: 2rem;
 }
+
+.news1 {
+    display: block;
+  padding: 1rem;
+  border: 1px solid #333;
+  box-shadow: 0 0 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 2rem;
+}
+
+
+.news2 {
+       display: block;
+       padding: 1rem;
+       border: 1px solid #333;
+       box-shadow: 0 0 20px;
+       text-align: justify;
+       text-justify: inter-word;
+       text-indent: 2rem;
+}
+
