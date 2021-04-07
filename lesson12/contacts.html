@@ -41,10 +41,10 @@
                     <button onclick="toggleMenu()">&#9776;Menu</button>
                     <ul id="primaryNav" class="hide">
                         <li><a href="">Home</a></li>
-                        <li class="active"><a href="">City Overview</a></li>
+                        <li><a href="">City Overview</a></li>
                         <li><a href="">Businesses</a></li>
                         <li><a href="">Gallery</a></li>
-                        <li><a href="">Contacts</a></li>
+                        <li class="active"><a href="">Contacts</a></li>
                     </ul>
                 </nav>
             </section>
@@ -65,74 +65,39 @@
             </div>
         </div>
         <main>
-      <h2>Storm Center</h2>
-      <form method="get" action="thanks.html">
-          <fieldset>
-              <legend>Personal Information</legend>
-              <label class="top">Full Name*<input type="text" name="frame" required></label>
-              <label class="top"> Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
-              <label class="top"> Phone*<input type="tel" name="phone" placeholder="71235551234" required></label>
-              <label class="top" for="zip">Zip Code:
-                  <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" required></label>
-          </fieldset>
-          <fieldset>
-              <legend>Storm Information</legend>
-              <label class="top">Storm Date<input type="date" name="stormDate"></label>
-              <label class="top">Storm Type
-                  <select name="subject">
-                      <option value="">Please Select &#9662;</option>
-                      <option value="software">Blizzards</option>
-                      <option value="creative">Hail</option>
-                      <option value="info">Heavy rain</option>
-                      <option value="construction">Ice storms</option>
-                      <option value="business">Lightning</option>
-                      <option value="security">Thunderstorms</option>
-                      <option value="security">Wind</option>
-                      <option value="security">Other</option>
-                  </select>
-              </label>
-              <label class="top">Storm Severity</label>
-              <label class="flexly" for="rating">
-                  <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
-                      oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                  <span id="ratingvalue">5</span>
-              </label>
+            <h2>Fill the Form</h2>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">Full Name*<input type="text" name="frame" required></label>
+                    <label class="top"> Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label class="top"> Phone*<input type="tel" name="phone" placeholder="0673904044" required></label>
 
-              <datalist id="tickmarks">
-                  <option value="0">
-                  <option value="1">
-                  <option value="2">
-                  <option value="3">
-                  <option value="4">
-                  <option value="5">
-                  <option value="6">
-                  <option value="7">
-                  <option value="8">
-                  <option value="9">
-                  <option value="10">
-              </datalist>
-              <label class="top">Storm Region
-                  <select name="subject">
-                      <option value="">Please Select &#9662;</option>
-                      <option value="software">Preston</option>
-                      <option value="creative">Soda Springs</option>
-                      <option value="info">Fish Haven</option>
-                  </select>
-              </label>
-          </fieldset>
-          <fieldset>
-              <legend>Additional Information</legend>
-              <div>Are you in danger?</div>
-              <label class="sds"> <input type="radio" name="audience" value="yes"> Yes </label>
-              <label class="sds"> <input type="radio" name="audience" value="maybe"> Maybe</label>
-              <label class="sds"> <input type="radio" name="audience" value="no"> No</label>
-              <div>Additional Information or Comments</div>
-              <textarea name="message">
+                </fieldset>
+                <fieldset>
+                    <legend>Choose the Organization</legend>
+
+                    <label class="top">Organizations>
+                        <select name="subject">
+                            <option value="">Please Select &#9662;</option>
+                            <option value="software">Local Government</option>
+                            <option value="creative">Volunteer Corps</option>
+                            <option value="info">Youth Center</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <div>Do you want to receive updates?</div>
+                    <label class="sds"> <input type="radio" name="audience" value="yes"> Yes </label>
+                    <label class="sds"> <input type="radio" name="audience" value="no"> No</label>
+                    <div>Additional Information or Comments</div>
+                    <textarea name="message">
 </textarea>
-          </fieldset>
-          <input type="submit" value="Report Storm" class="submitBtn">
-      </form>
-     
+                </fieldset>
+                <input type="submit" value="Send" class="submitBtn">
+            </form>
+
 
         </main>
         <footer>

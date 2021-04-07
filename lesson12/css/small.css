@@ -315,3 +315,8 @@ line-height: 3rem;
     font-weight: 900;
      width: 90%;
 }
+img.check {
+    display: block;
+    width: 50%;
+   margin: 50px auto;
+}
