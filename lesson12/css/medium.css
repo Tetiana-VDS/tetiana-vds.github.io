@@ -135,5 +135,35 @@ font-size: 1.1rem;
     .Wdays {
         display: block;
     }
-    
+    /* Business */
+    .business {
+        margin: 1rem;
+        text-align: justify;
+        text-justify: inter-word;
+
+    }
+
+    .bigbusinessBT {
+        display: block;
+        text-indent: 2rem;
+
+
+    }
+
+    .bigbusinessBT img {
+        width: 100%;
+
+    }
+
+    .smallbusinessBT {
+        border: 2px solid #333;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .eachBusiness {
+        border: 2px solid #333;
+        padding: 1rem;
+    }
 }
