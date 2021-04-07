@@ -281,3 +281,20 @@ line-height: 3rem;
 .attribution img{
     width: 100%;
 }
+.eventtocome {
+    display: block;
+    background-color: var(--clr-news);
+
+}
+
+.mainEvents {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.forecast {
+    display: grid;
+}
+.Wdays{
+    display: grid;
+}
