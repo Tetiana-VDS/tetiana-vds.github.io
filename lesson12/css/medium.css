@@ -94,6 +94,7 @@ font-size: 1.1rem;
 
     .gallery figure {
         border: 1px solid #333;
+        margin: 0.5rem;
     }
 
     figure img {
@@ -106,6 +107,7 @@ font-size: 1.1rem;
 
     figcaption {
         padding: 5px;
+        font-weight: 900;
     }
 
     form {

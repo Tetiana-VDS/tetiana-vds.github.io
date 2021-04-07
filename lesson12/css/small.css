@@ -237,7 +237,7 @@ width: 90%;
 
 figure {
     border: 1px solid #333;
-
+margin: 0.5rem;
 }
 
 figure img {
@@ -250,6 +250,7 @@ figure img {
 
 figcaption {
     font-size: large;
+     font-weight: 900;
 }
 .center{
     text-align: center;
