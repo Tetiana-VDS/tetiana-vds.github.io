@@ -1,14 +1,12 @@
-  const apiURL = "https://api.openweathermap.org/data/2.5/forecast?lat=49.8094&lon=30.1121&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=imperial";
+  const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=49.8094&lon=30.1121&exclude=hourly,minutely,current&APPID=02d538d3f6e5b1a6ebc01ea46b82bc1d&units=metric";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
-        const thefive = jsObject.list.filter(time => time.dt_txt.includes('18:00:00'));
-        console.log(thefive);
         let day = 0;
         const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-        thefive.forEach(forecast => {
-            let d = new Date(forecast.dt_txt);
+        jsObject.forEach(forecast => {
+            let d = new Date(daily);
              const imagesrc =`https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
             const desc = forecast.weather[0].description;
             document.getElementById(`dayofWeek${day + 1}`).textContent = dayofWeek[d.getDay()];

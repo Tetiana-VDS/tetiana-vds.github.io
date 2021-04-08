@@ -121,7 +121,6 @@ font-size: 1.1rem;
     .eventtocome {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        background-color: var(--clr-news);
 
     }
 

@@ -287,7 +287,7 @@ line-height: 3rem;
 }
 .eventtocome {
     display: block;
-    background-color: var(--clr-news);
+  
  margin: 0.5rem;
  padding: 0.5rem;
  font-size: smaller;
