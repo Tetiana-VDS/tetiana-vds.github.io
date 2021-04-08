@@ -51,7 +51,7 @@ font-size: 1.1rem;
         font-family: var(--ff-headings);
         color: white;
         width: 150px;
-        height: 150px
+        height: 150px;
         background-color: var(--clr-news);
         border-radius: 50%;
         font-weight: 900;

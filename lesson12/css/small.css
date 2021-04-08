@@ -23,7 +23,7 @@
 body{
     font-family: var(--ff-primary);
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background-color: var(--clr-primary-main);
 line-height: 1.6;
 margin: 0 auto;

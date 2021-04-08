@@ -2,18 +2,21 @@
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        console.log(jsObject.daily);
+        const array = jsObject.daily;
         let day = 0;
         const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-        jsObject.forEach(forecast => {
-            let d = new Date(daily);
-             const imagesrc =`https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
-            const desc = forecast.weather[0].description;
+  
+            array.forEach(element => {
+                let d = new Date(element);
+           
+        const imagesrc = `https://openweathermap.org/img/w/${element.daily[0].weather[0].icon}.png`;
+            
+            const desc = element.daily[0].weather[0].description;
             document.getElementById(`dayofWeek${day + 1}`).textContent = dayofWeek[d.getDay()];
-            document.getElementById(`forecast${day + 1}`).textContent = Math.round(forecast.main.temp);
+            document.getElementById(`forecast${day + 1}`).textContent = Math.round(element.daily[0].temp.day);
             document.getElementById(`wicon${day + 1}`).setAttribute('src', imagesrc);
             document.getElementById(`wicon${day + 1}`).setAttribute('alt', desc);
-            
             day++
         });
        
