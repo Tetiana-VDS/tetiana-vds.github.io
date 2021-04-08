@@ -42,9 +42,9 @@
                     <ul id="primaryNav" class="hide">
                         <li><a href="https://tetiana-vds.github.io/lesson12/index.html">Home</a></li>
                         <li><a href="https://tetiana-vds.github.io/lesson12/city.html">City</a></li>
-                        <li><a href="https://tetiana-vds.github.io/lesson12/directory.html">Directory</a></li>
-                        <li><a href="https://tetiana-vds.github.io/lesson12/join.html">Join</a></li>
-                        <li class="active"><a href="https://tetiana-vds.github.io/lesson12/contacts.html">Contacts</a>
+                        <li><a href="https://tetiana-vds.github.io/lesson12/business.html">Businesses</a></li>
+                        <li class="active"><a href="https://tetiana-vds.github.io/lesson12/join.html">Join</a></li>
+                        <li ><a href="https://tetiana-vds.github.io/lesson12/contacts.html">Contacts</a>
                         </li>
                     </ul>
                 </nav>
@@ -62,7 +62,39 @@
                 <p class="mission">Unity</p>
             </div>
         </div>
-  
+        <h2>Fill the Form</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name*<input type="text" name="frame" required></label>
+                <label class="top">Last Name*<input type="text" name="frame" required></label>
+                <label class="top"> Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top"> Phone*<input type="tel" name="phone" placeholder="0673904044" required></label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Choose the Organization</legend>
+
+                <label class="top">Organizations>
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="software">Local Government</option>
+                        <option value="creative">Volunteer Corps</option>
+                        <option value="info">Youth Center</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <div>Do you want to receive updates?</div>
+                <label class="sds"> <input type="radio" name="audience" value="yes"> Yes </label>
+                <label class="sds"> <input type="radio" name="audience" value="no"> No</label>
+                <div>Additional Information or Comments</div>
+                <textarea name="message">
+</textarea>
+            </fieldset>
+            <input type="submit" value="Send" class="submitBtn">
+        </form>
 
 
     </main>

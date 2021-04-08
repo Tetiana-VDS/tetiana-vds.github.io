@@ -236,6 +236,8 @@ width: 90%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+      margin: 10px auto;
+      width: min(90%, 80.5rem);
 }
 
 figure {
