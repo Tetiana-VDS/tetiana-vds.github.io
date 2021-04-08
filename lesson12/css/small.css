@@ -219,13 +219,16 @@ opacity: 0.9;
     background-color: var(--clr-events);
     padding: 1.6rem 0.7rem;
 margin-bottom: 30px;
-/* color: white; */
+color: white; 
+}
+.eachOrganization a{
+    color: var(--clr-primary-main);
 }
 .eachOrganization img{
 width: 90%;
 }
 .map iframe{
-    width: 100%;
+    width: 90%;
     min-width: 200px;
 }
 /* Gallery */
@@ -238,6 +241,7 @@ width: 90%;
 figure {
     border: 1px solid #333;
 margin: 0.5rem;
+ background-color: white;
 }
 
 figure img {
@@ -251,6 +255,7 @@ figure img {
 figcaption {
     font-size: large;
      font-weight: 900;
+    
 }
 .center{
     text-align: center;
@@ -441,5 +446,9 @@ margin: 1rem;
        text-align: justify;
        text-justify: inter-word;
        text-indent: 2rem;
+}
+footer a{
+    color:rgb(255, 255, 255);
+
 }
 
