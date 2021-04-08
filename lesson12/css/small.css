@@ -46,7 +46,7 @@ h1,h2,h3{
 }
 
 .container{
-    margin-inline: auto;
+    margin: 10px auto;
     width: min(90%, 80.5rem);
     text-indent: 50px;
     text-align: justify;
